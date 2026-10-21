@@ -81,10 +81,12 @@
     back: ClothingBackpackDuffelCaptain
 
 # Outer clothing
-- type: loadout
-  id: CaptainOuterClothing
-  equipment:
-    outerClothing: ClothingOuterArmorCaptainCarapace
+# MAYDAY: removed
+#- type: loadout
+#  id: CaptainOuterClothing
+#  equipment:
+#    outerClothing: ClothingOuterArmorCaptainCarapace
+# end MAYDAY
 
 - type: loadout
   id: CaptainWintercoat
