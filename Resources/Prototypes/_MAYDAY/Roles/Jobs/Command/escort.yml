@@ -1,0 +1,46 @@
+- type: job
+  id: Escort
+  name: job-name-escort
+  description: job-description-escort
+  playTimeTracker: JobEscort
+  startingGear: EscortGear
+  icon: "JobIconSecurityOfficer"
+  supervisors: job-supervisors-captain
+  guides: [ Security ] # TODO: should have a more specific guidebook page instead of using the department itself
+  access:
+  - Command
+  - Armory
+  - Maintenance
+  - External
+  - Cryogenics
+  - GenpopEnter
+  - GenpopLeave
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: EscortGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - MagazinePistol
+
+- type: chameleonOutfit
+  id: EscortChameleonOutfit
+  job: Escort
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatWarden
+    mask: ClothingMaskGasSecurity
+    outerClothing: ClothingOuterCoatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    neck: Dinkystar
+    belt: ClothingBeltSecurity
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsJack

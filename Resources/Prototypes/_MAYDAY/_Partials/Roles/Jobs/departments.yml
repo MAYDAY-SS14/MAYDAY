@@ -3,3 +3,4 @@
   roles:
   - !remove HeadOfSecurity
   - Detective
+  - Escort
