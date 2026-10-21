@@ -1,0 +1,4 @@
+- type: !partialOnly job
+  id: HeadOfPersonnel
+  access:
+  - Armory
