@@ -1,0 +1,5 @@
+- type: !partialOnly department
+  id: Command
+  roles:
+  - !remove HeadOfSecurity
+  - Detective
