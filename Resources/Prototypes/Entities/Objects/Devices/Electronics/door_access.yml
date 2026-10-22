@@ -212,15 +212,13 @@
     access: [["Research"]]
 
 # Security
-# begin MAYDAY: security department removal
-#- type: entity
-#  parent: DoorElectronics
-#  id: DoorElectronicsHeadOfSecurity
-#  suffix: HeadOfSecurity, Locked
-#  components:
-#  - type: AccessReader
-#    access: [["HeadOfSecurity"]]
-# end MAYDAY
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsHeadOfSecurity
+  suffix: HeadOfSecurity, Locked
+  components:
+  - type: AccessReader
+    access: [["HeadOfSecurity"]]
 
 - type: entity
   parent: DoorElectronics
