@@ -10,7 +10,7 @@
     lockTime: 0.5
   - type: LockedStorage
   - type: AccessReader
-    access: [["Captain"], ["Command"]]
+    access: [["Command"]]
   - type: Storage
     maxItemSize: Large
     grid:
