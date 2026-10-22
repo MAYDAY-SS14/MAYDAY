@@ -7,7 +7,7 @@
   abstract: true
 
 - type: !partialOnly entity
-  parent: WindoorCommand
+  parent: WindoorCommandLocked
   id: WindoorDetectiveLocked
 
 - type: !partialOnly entity
