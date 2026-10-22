@@ -1,0 +1,3 @@
+- type: !partialOnly job
+  id: SecurityOfficer
+  overrideConsoleVisibility: false

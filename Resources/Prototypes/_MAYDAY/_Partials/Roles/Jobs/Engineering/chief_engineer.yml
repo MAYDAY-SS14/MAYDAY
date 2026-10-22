@@ -2,3 +2,4 @@
   id: ChiefEngineer
   access:
   - Armory
+  - !Remove Brig

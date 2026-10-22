@@ -1,6 +1,6 @@
 - type: !partialOnly department
   id: Command
   roles:
-  - !remove HeadOfSecurity
+  - !Remove HeadOfSecurity
   - Detective
   - Escort

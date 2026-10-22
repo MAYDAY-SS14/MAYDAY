@@ -2,3 +2,4 @@
   id: ChiefMedicalOfficer
   access:
   - Armory
+  - !Remove Brig

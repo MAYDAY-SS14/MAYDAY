@@ -1,0 +1,31 @@
+- type: !partialOnly accessGroup
+  id: AllAccess
+  tags:
+  - !Remove HeadOfSecurity
+  - ResearchDirector
+  - Command
+  - Cryogenics
+  - !Remove Security
+  - Detective
+  - Armory
+  - !Remove Brig
+  - Lawyer
+  - Engineering
+  - Medical
+  - Quartermaster
+  - Salvage
+  - Cargo
+  - Research
+  - Service
+  - Maintenance
+  - External
+  - Janitor
+  - Theatre
+  - Bar
+  - Chemistry
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - Atmospherics
+  - !Remove GenpopEnter
+  - !Remove GenpopLeave

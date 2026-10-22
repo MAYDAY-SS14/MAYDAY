@@ -2,3 +2,4 @@
   id: Quartermaster
   access:
   - Armory
+  - !Remove Brig

@@ -45,7 +45,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Armory",
         "Atmospherics",
         "Bar",
-        "Brig",
+        // "Brig", // starcup
         "Detective",
         "Captain",
         "Cargo",
@@ -57,10 +57,10 @@ public sealed partial class IdCardConsoleComponent : Component
         "Cryogenics",
         "Engineering",
         "External",
-        "GenpopEnter",
-        "GenpopLeave",
+        // "GenpopEnter", // starcup
+        // "GenpopLeave", // starcup
         "HeadOfPersonnel",
-        "HeadOfSecurity",
+        // "HeadOfSecurity", // starcup
         "Hydroponics",
         "Janitor",
         "Kitchen",
@@ -71,7 +71,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Research",
         "ResearchDirector",
         "Salvage",
-        "Security",
+        // "Security", // starcup
         "Service",
         "Theatre",
     };

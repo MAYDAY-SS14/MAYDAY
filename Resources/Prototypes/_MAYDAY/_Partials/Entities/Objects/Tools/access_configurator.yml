@@ -1,0 +1,22 @@
+- type: !partialOnly entity
+  id: AccessConfigurator
+  components:
+  - type: AccessOverrider
+    accessLevels:
+    - !Remove Brig
+    - !Remove HeadOfSecurity
+    - !Remove Security
+    - !Remove GenpopEnter
+    - !Remove GenpopLeave
+
+- type: !partialOnly entity
+  parent: AccessConfigurator
+  id: AccessConfiguratorUniversal
+  components:
+  - type: AccessOverrider
+    accessLevels:
+    - !Remove Brig
+    - !Remove HeadOfSecurity
+    - !Remove Security
+    - !Remove GenpopEnter
+    - !Remove GenpopLeave

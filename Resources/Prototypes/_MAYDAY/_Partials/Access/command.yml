@@ -1,0 +1,4 @@
+- type: !partialOnly accessGroup
+  id: Command
+  tags:
+  - !Remove HeadOfSecurity
