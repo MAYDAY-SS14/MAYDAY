@@ -1,15 +1,15 @@
-- type: entity
+- type: !partialOnly entity
   id: DoorElectronicsHeadOfSecurity
   abstract: true
 
-- type: entity
+- type: !partialOnly entity
   id: DoorElectronicsSecurity
   abstract: true
 
-- type: entity
+- type: !partialOnly entity
   id: DoorElectronicsSecurityLawyer
   abstract: true
 
-- type: entity
+- type: !partialOnly entity
   id: DoorElectronicsBrig
   abstract: true
