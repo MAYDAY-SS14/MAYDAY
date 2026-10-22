@@ -359,14 +359,16 @@
     containers:
       board: [ DoorElectronicsChiefEngineer ]
 
-- type: entity
-  parent: AirlockCommand
-  id: AirlockHeadOfSecurityLocked
-  suffix: HeadOfSecurity, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsHeadOfSecurity ]
+# begin MAYDAY: security department removal
+#- type: entity
+#  parent: AirlockCommand
+#  id: AirlockHeadOfSecurityLocked
+#  suffix: HeadOfSecurity, Locked
+#  components:
+#  - type: ContainerFill
+#    containers:
+#      board: [ DoorElectronicsHeadOfSecurity ]
+# end MAYDAY
 
 - type: entity
   parent: AirlockCommand
@@ -800,14 +802,16 @@
     containers:
       board: [ DoorElectronicsChiefEngineer ]
 
-- type: entity
-  parent: AirlockCommandGlass
-  id: AirlockHeadOfSecurityGlassLocked
-  suffix: HeadOfSecurity, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsHeadOfSecurity ]
+# begin MAYDAY: security department removal
+#- type: entity
+#  parent: AirlockCommandGlass
+#  id: AirlockHeadOfSecurityGlassLocked
+#  suffix: HeadOfSecurity, Locked
+#  components:
+#  - type: ContainerFill
+#    containers:
+#      board: [ DoorElectronicsHeadOfSecurity ]
+# end MAYDAY
 
 - type: entity
   parent: AirlockCommandGlass

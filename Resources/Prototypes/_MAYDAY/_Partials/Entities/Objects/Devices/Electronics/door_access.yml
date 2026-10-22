@@ -1,8 +1,4 @@
 - type: !partialOnly entity
-  id: DoorElectronicsHeadOfSecurity
-  abstract: true
-
-- type: !partialOnly entity
   id: DoorElectronicsSecurity
   abstract: true
 
