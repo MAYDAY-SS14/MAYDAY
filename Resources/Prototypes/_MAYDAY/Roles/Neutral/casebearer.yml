@@ -1,0 +1,32 @@
+- type: antag
+  id: Casebearer
+  name: roles-antag-casebearer-name
+  antagonist: false
+  setPreference: false
+  objective: roles-antag-casebearer-objective
+  guides: [ Casebearers ]
+  tags:
+  - OnStation
+  - Roundstart
+
+- type: antagSpecifier
+  parent: RestrictedAntag
+  id: Casebearer
+#  prefRoles:
+#  - Casebearer
+  allowNonHumans: true
+  multiAntagSetting: NotExclusive
+  startingGear: CasebearerGear
+  mindRoles:
+  - MindRoleCasebearer
+  pickPlayer: true
+  briefing:
+    text: casebearer-role-greeting
+    color: LightSteelBlue
+    sound: "/Audio/Misc/thief_greeting.ogg"
+
+- type: startingGear
+  id: CasebearerGear
+  storage:
+    back:
+    - BriefcaseCasebearerViper

@@ -1,0 +1,119 @@
+- type: entity
+  parent: [BriefcaseBrown]
+  id: BriefcaseCasebearer
+  suffix: Casebearer, Empty
+  components:
+  - type: Item
+    size: Large
+  - type: Lock
+    unlockTime: 2
+    lockTime: 0.5
+  - type: LockedStorage
+  - type: AccessReader
+    access: [["Command"]]
+  - type: Storage
+    maxItemSize: Large
+    grid:
+    - 0,0,2,1
+    - 4,0,5,1
+
+- type: entity
+  parent: [BriefcaseCasebearer]
+  id: BriefcaseCasebearerViper
+  suffix: Casebearer, Viper
+  components:
+  - type: Storage
+    maxItemSize: Large
+    grid:
+    - 0,0,2,1
+    - 4,0,5,1
+    - 7,0,7,1
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: WeaponPistolViper
+          amount: 2
+        - id: MagazinePistolHighCapacity
+          amount: 2
+        - !type:GroupSelector
+          children:
+          - id: Flash
+            weight: 995
+          - id: ToyAmongPequeno
+            weight: 5
+
+- type: entity
+  parent: [BriefcaseCasebearer]
+  id: BriefcaseCasebearerBulldog
+  suffix: Casebearer, Bulldog
+  components:
+  - type: Storage
+    grid:
+    - 0,0,3,1
+    - 5,0,6,1
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: WeaponShotgunBulldog
+        - !type:GroupSelector
+          children:
+          - id: MagazineShotgun
+            amount: 2
+            weight: 0.80
+          - id: MagazineShotgunSlug
+            amount: 2
+            weight: 0.10
+          - id: MagazineShotgunIncendiary
+            amount: 2
+            weight: 0.05
+          - id: BoxLethalshot
+            weight: 0.05
+
+- type: entity
+  parent: [BriefcaseCasebearer]
+  id: BriefcaseCasebearerAtreides
+  suffix: Casebearer, Atreides
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: WeaponSubMachineGunAtreides
+        - !type:GroupSelector
+          children:
+          - id: MagazinePistolSubMachineGun
+            amount: 2
+            weight: 0.90
+          - id: MagazinePistolSubMachineGunIncendiary
+            amount: 2
+            weight: 0.10
+
+- type: entity
+  parent: [BriefcaseCasebearer]
+  id: BriefcaseCasebearerClown
+  suffix: Casebearer, Clown
+  components:
+  - type: Storage
+    grid:
+    - 0,0,2,1
+    - 4,0,5,1
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:GroupSelector
+        children:
+        - !type:AllSelector
+          weight: 1
+          children:
+          - id: FoodPieBananaCream
+            amount: 2
+          - id: ToyHammer
+        - !type:AllSelector
+          weight: 1
+          children:
+          - id: RevolverCapGun
+            amount: 2
+          - id: SpeedLoaderCap
+            amount: 2
+
