@@ -79,20 +79,18 @@
   - Scientist
   - ResearchAssistant
 
-# MAYDAY: abolish security
-#- type: department
-#  id: Security
-#  name: department-Security
-#  description: department-Security-description
-#  color: "#DE3A3A"
-#  weight: 20 # Raised priority compared to most other crew departments
-#  roles:
-#  - HeadOfSecurity
-#  - SecurityCadet
-#  - SecurityOfficer
-#  - Detective
-#  - Warden
-# end MAYDAY
+- type: department
+  id: Security
+  name: department-Security
+  description: department-Security-description
+  color: "#DE3A3A"
+  weight: 20 # Raised priority compared to most other crew departments
+  roles:
+  - HeadOfSecurity
+  - SecurityCadet
+  - SecurityOfficer
+  - Detective
+  - Warden
 
 - type: department
   id: Service

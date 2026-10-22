@@ -37,12 +37,10 @@
     jumpsuit: ClothingUniformJumpskirtDetectiveGrey
 
 # OuterClothing
-# MAYDAY: removed
-#- type: loadout
-#  id: DetectiveArmorVest
-#  equipment:
-#    outerClothing: ClothingOuterVestDetective
-# end MAYDAY
+- type: loadout
+  id: DetectiveArmorVest
+  equipment:
+    outerClothing: ClothingOuterVestDetective
 
 - type: loadout
   id: DetectiveCoat
