@@ -1,0 +1,19 @@
+- type: !partialOnly entity
+  id: PlasmaWindoorSecurityLocked
+  abstract: true
+
+- type: !partialOnly entity
+  id: WindoorSecurityLocked
+  abstract: true
+
+- type: !partialOnly entity
+  parent: WindoorCommand
+  id: WindoorDetectiveLocked
+
+- type: !partialOnly entity
+  id: WindoorBrigLocked
+  abstract: true
+
+- type: !partialOnly entity
+  id: WindoorSecurityLawyerLocked
+  abstract: true
