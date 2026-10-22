@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseMindRole
+  id: MindRoleCasebearer
+  name: Casebearer Role
+  components:
+  - type: MindRole
+    roleType: Neutral
+    subtype: role-subtype-casebearer
+  - type: RoleBriefing
+    briefing: casebearer-briefing
