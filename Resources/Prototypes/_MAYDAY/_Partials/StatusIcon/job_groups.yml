@@ -1,0 +1,4 @@
+- type: !partialOnly jobIconGroup
+  id: CommandIconGroup
+  icons:
+  - JobIconDetectiveAlt
