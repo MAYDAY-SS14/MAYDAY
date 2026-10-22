@@ -19,7 +19,7 @@ public sealed partial class MapMigrationSystem : EntitySystem
 {
     [Dependency] private IResourceManager _resMan = default!;
 
-    private const string MigrationDir = "/Migrations/"; // DeltaV - dir instead of a single file
+    private const string MigrationFile = "/migration.yml";
 
     public override void Initialize()
     {
@@ -31,71 +31,30 @@ public sealed partial class MapMigrationSystem : EntitySystem
             return;
 
         // Verify that all of the entries map to valid entity prototypes.
-        // begin starcup (Delta-v): split migrations
-//        foreach (var node in mappings.Values)
-//        {
-//            var newId = ((ValueDataNode) node).Value;
-//            if (!string.IsNullOrEmpty(newId) && newId != "null")
-//                DebugTools.Assert(_protoMan.HasIndex<EntityPrototype>(newId), $"{newId} is not an entity prototype.");
-//        }
-
-        foreach (var mapping in mappings)
+        foreach (var node in mappings.Children.Values)
         {
-            foreach (var node in mapping.Children.Values)
-            {
-                var newId = ((ValueDataNode) node).Value;
-                if (!string.IsNullOrEmpty(newId) && newId != "null")
-                    DebugTools.Assert(ProtoMan.HasIndex<EntityPrototype>(newId), $"{newId} is not an entity prototype.");
-            }
+            var newId = ((ValueDataNode) node).Value;
+            if (!string.IsNullOrEmpty(newId) && newId != "null")
+                DebugTools.Assert(ProtoMan.HasIndex<EntityPrototype>(newId), $"{newId} is not an entity prototype.");
         }
-        // end starcup
 #endif
     }
 
-    private bool TryReadFile([NotNullWhen(true)] out List<MappingDataNode>? mappings) // DeltaV - changed to a list
+    private bool TryReadFile([NotNullWhen(true)] out MappingDataNode? mappings)
     {
         mappings = null;
-
-        // begin starcup (Delta-v): split migrations
-//        var path = new ResPath(MigrationFile);
-//        if (!_resMan.TryContentFileRead(path, out var stream))
-//            return false;
-//
-//        using var reader = new StreamReader(stream, EncodingHelpers.UTF8);
-//        var documents = DataNodeParser.ParseYamlStream(reader).FirstOrDefault();
-//
-//        if (documents == null)
-//            return false;
-//
-//        mappings = (MappingDataNode) documents.Root;
-//        return true;
-        // end starcup
-
-        // Begin DeltaV Changes - rewrote single path to finding files in a directory
-        var files = _resMan.ContentFindFiles(MigrationDir)
-            .Where(f => f.ToString().EndsWith(".yml"))
-            .ToList();
-
-        if (files.Count == 0)
+        var path = new ResPath(MigrationFile);
+        if (!_resMan.TryContentFileRead(path, out var stream))
             return false;
 
-        foreach (var file in files)
-        {
-            if (!_resMan.TryContentFileRead(file, out var stream))
-                continue;
+        using var reader = new StreamReader(stream, EncodingHelpers.UTF8);
+        var documents = DataNodeParser.ParseYamlStream(reader).FirstOrDefault();
 
-            using var reader = new StreamReader(stream, EncodingHelpers.UTF8);
-            var documents = DataNodeParser.ParseYamlStream(reader).FirstOrDefault();
+        if (documents == null)
+            return false;
 
-            if (documents == null)
-                continue;
-
-            mappings = mappings ?? new List<MappingDataNode>();
-            mappings.Add((MappingDataNode)documents.Root);
-        }
-
-        return mappings != null && mappings.Count > 0;
-        // End DeltaV Changes
+        mappings = (MappingDataNode) documents.Root;
+        return true;
     }
 
     private void OnBeforeReadEvent(BeforeEntityReadEvent ev)
@@ -103,18 +62,15 @@ public sealed partial class MapMigrationSystem : EntitySystem
         if (!TryReadFile(out var mappings))
             return;
 
-        foreach (var mapping in mappings) // DeltaV - iterate a list of mappings
+        foreach (var (key, value) in mappings)
         {
-            foreach (var (key, value) in mapping)
-            {
-                if (value is not ValueDataNode valueNode)
-                    continue;
+            if (value is not ValueDataNode valueNode)
+                continue;
 
-                if (string.IsNullOrWhiteSpace(valueNode.Value) || valueNode.Value == "null")
-                    ev.DeletedPrototypes.Add(key);
-                else
-                    ev.RenamedPrototypes.Add(key, valueNode.Value);
-            }
+            if (string.IsNullOrWhiteSpace(valueNode.Value) || valueNode.Value == "null")
+                ev.DeletedPrototypes.Add(key);
+            else
+                ev.RenamedPrototypes.Add(key, valueNode.Value);
         }
     }
 }
