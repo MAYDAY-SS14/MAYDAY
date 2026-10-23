@@ -1,14 +1,13 @@
 - type: roleLoadout
   id: JobEscort
   groups:
-  - WardenHead
-  - WardenJumpsuit
-  - SecurityBackpack
-  - SecurityBelt
-  - WardenOuterClothing
-  - SecurityShoes
+  - EscortHead
+  - CommandEyes
+  - EscortJumpsuit
+  - EscortBackpack
+  - EscortBelt
+  - EscortOuterClothing
   - AssistiveItems
-  - SurvivalSecurity
+  - SurvivalEscort
   - Trinkets
-  - WardenJobTrinkets
-  - GroupSpeciesBreathToolSecurity
+  - GroupSpeciesBreathToolEscort
