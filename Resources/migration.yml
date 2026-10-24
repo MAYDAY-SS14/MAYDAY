@@ -1192,3 +1192,4 @@ SpawnPointHeadOfSecurity: null
 SpawnPointWarden: null
 SpawnPointSecurityOfficer: null
 SpawnPointSecurityCadet: null
+RandomSecurityCorpseSpawner: null
