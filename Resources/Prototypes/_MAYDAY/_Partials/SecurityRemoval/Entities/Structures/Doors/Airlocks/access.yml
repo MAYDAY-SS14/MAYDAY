@@ -1,0 +1,57 @@
+- type: !PartialOnly entity
+  id: AirlockHeadOfSecurityLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  id: AirlockSecurityLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  parent: AirlockCommand
+  id: AirlockDetectiveLocked
+
+- type: !PartialOnly entity
+  id: AirlockBrigLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  id: AirlockSecurityLawyerLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  parent: AirlockCommand
+  id: AirlockArmoryLocked
+
+# Glass Airlocks
+- type: !PartialOnly entity
+  id: AirlockHeadOfSecurityGlassLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  id: AirlockSecurityGlassLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  parent: AirlockCommandGlass
+  id: AirlockDetectiveGlassLocked
+
+- type: !PartialOnly entity
+  id: AirlockBrigGlassLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  id: AirlockSecurityLawyerGlassLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  parent: AirlockCommand
+  id: AirlockArmoryGlassLocked
+
+# Maints Airlocks
+- type: !PartialOnly entity
+  id: AirlockMaintHeadOfSecurityLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  id: AirlockMaintSecLocked
+  abstract: true

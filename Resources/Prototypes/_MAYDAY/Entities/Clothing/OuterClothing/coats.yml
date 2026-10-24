@@ -1,0 +1,45 @@
+- type: entity
+  abstract: true
+  parent: [ ClothingOuterArmorBase, ClothingOuterStorageBase ]
+  id: ClothingOuterArmorEscort
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7
+
+- type: entity
+  parent: [ClothingOuterArmorEscort, BaseCommandContraband]
+  id: ClothingOuterJacketEscort
+  name: escort's armored jacket
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/warden.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/warden.rsi
+
+- type: entity
+  parent: [ClothingOuterArmorEscort, BaseCommandContraband]
+  id: ClothingOuterCoatEscort
+  name: escort's armored coat
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
+
+- type: entity
+  parent: [ClothingOuterArmorEscort, BaseCommandContraband]
+  id: ClothingOuterTrenchcoatEscort
+  name: escort's armored trenchcoat
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi

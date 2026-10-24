@@ -1,0 +1,18 @@
+- type: entity
+  parent: IDCardStandard
+  id: EscortIDCard
+  name: escort ID card
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: stripe_top
+      color: "#1b67a5"
+    - state: stripe_bottom
+      color: "#0e4069"
+    - sprite: Interface/Misc/job_icons.rsi
+      offset: -0.09375, 0.0625
+      state: HeadOfSecurity
+  - type: PresetIdCard
+    job: Escort

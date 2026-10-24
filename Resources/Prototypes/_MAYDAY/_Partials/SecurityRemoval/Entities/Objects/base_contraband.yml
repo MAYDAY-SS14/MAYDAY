@@ -1,0 +1,45 @@
+- type: !PartialOnly entity
+  id: BaseSecurityContraband
+  components:
+  - !Remove type: Contraband
+  - type: Contraband
+    allowedDepartments: [ Command ]
+
+- type: !PartialOnly entity
+  id: BaseSecurityCommandContraband
+  components:
+  - !Remove type: Contraband
+  - type: Contraband
+    allowedDepartments: [ Command ]
+
+- type: !PartialOnly entity
+  id: BaseSecurityScienceCommandContraband
+  components:
+  - !Remove type: Contraband
+  - type: Contraband
+    allowedDepartments: [ Science, Command ]
+
+- type: !PartialOnly entity
+  id: BaseSecurityEngineeringContraband
+  components:
+  - !Remove type: Contraband
+  - type: Contraband
+    allowedDepartments: [ Engineering ]
+
+- type: !PartialOnly entity
+  id: BaseSecurityCargoContraband
+  components:
+  - type: Contraband
+    allowedDepartments: [ Cargo ]
+
+- type: !PartialOnly entity
+  id: BaseSecurityBartenderContraband
+  components:
+  - type: Contraband
+    allowedJobs: [ Bartender ]
+
+- type: !PartialOnly entity
+  id: BaseSecurityLawyerContraband
+  components:
+  - type: Contraband
+    allowedJobs: [ Lawyer ]
