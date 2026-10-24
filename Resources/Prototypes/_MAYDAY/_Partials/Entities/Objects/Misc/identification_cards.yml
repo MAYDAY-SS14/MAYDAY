@@ -1,4 +1,4 @@
-- type: !partialOnly entity
+- type: !PartialOnly entity
   id: DetectiveIDCard
   components:
   - type: Sprite

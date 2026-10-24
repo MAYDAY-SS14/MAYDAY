@@ -1,10 +1,10 @@
-- type: !partialOnly department
+- type: !PartialOnly department
   id: Command
   roles:
   - !Remove HeadOfSecurity
   - Detective
   - Escort
 
-- type: !partialOnly department
+- type: !PartialOnly department
   id: Security
   abstract: true

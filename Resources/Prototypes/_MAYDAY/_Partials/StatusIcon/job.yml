@@ -1,11 +1,11 @@
-- type: !partialOnly jobIcon
+- type: !PartialOnly jobIcon
   parent: JobIcon
   id: JobIconDetective
   icon:
     sprite: &icon-rsi /Textures/_MAYDAY/Interface/Misc/job_icons.rsi
     state: Detective
 
-- type: !partialOnly jobIcon
+- type: !PartialOnly jobIcon
   parent: JobIcon
   id: JobIconHeadOfSecurity
   jobName: job-name-escort

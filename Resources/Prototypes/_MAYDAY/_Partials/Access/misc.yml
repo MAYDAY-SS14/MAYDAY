@@ -1,4 +1,4 @@
-- type: !partialOnly accessGroup
+- type: !PartialOnly accessGroup
   id: AllAccess
   tags:
   - !Remove HeadOfSecurity

@@ -1,4 +1,4 @@
-- type: !partialOnly entity
+- type: !PartialOnly entity
   id: AccessConfigurator
   components:
   - type: AccessOverrider
@@ -9,7 +9,7 @@
     - !Remove GenpopEnter
     - !Remove GenpopLeave
 
-- type: !partialOnly entity
+- type: !PartialOnly entity
   parent: AccessConfigurator
   id: AccessConfiguratorUniversal
   components:

@@ -1,10 +1,10 @@
-- type: !partialOnly reagent
+- type: !PartialOnly reagent
   id: TearGas
   allowedDepartments:
   - !Remove Security
   - Command
 
-- type: !partialOnly reagent
+- type: !PartialOnly reagent
   id: Pax
   allowedDepartments:
   - !Remove Security

@@ -1,4 +1,4 @@
-- type: !partialOnly job
+- type: !PartialOnly job
   id: ChiefMedicalOfficer
   access:
   - Armory

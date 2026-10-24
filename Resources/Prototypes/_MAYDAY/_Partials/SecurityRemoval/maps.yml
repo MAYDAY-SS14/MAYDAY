@@ -1,4 +1,4 @@
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Bagel
   stations:
     Bagel:
@@ -9,7 +9,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Box
   stations:
     Box:
@@ -20,7 +20,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Elkridge
   stations:
     Elkridge:
@@ -31,7 +31,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Exo
   stations:
     Exo:
@@ -42,7 +42,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Marathon
   stations:
     Marathon:
@@ -53,7 +53,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Packed
   stations:
     Packed:
@@ -64,7 +64,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Plasma
   stations:
     Plasma:
@@ -75,7 +75,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Relic
   stations:
     Relic:
@@ -86,7 +86,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Saltern
   stations:
     Saltern:
@@ -97,7 +97,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Snowball
   stations:
     Snowball:
@@ -108,7 +108,7 @@
         - !Remove SecurityOfficer
         - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Sushi
   stations:
     Sushi:
@@ -119,7 +119,7 @@
       - !Remove SecurityOfficer
       - !Remove SecurityCadet
 
-- type: !partialOnly gameMap
+- type: !PartialOnly gameMap
   id: Tram2
   stations:
     Tram2:
