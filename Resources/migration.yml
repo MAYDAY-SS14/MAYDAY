@@ -1097,7 +1097,7 @@ UraniumWindoorSecureEngineeringLocked: UraniumWindoorEngineeringLocked
 WindoorSecureExternalLocked: WindoorExternalLocked
 PlasmaWindoorSecureJanitorLocked: PlasmaWindoorJanitorLocked
 WindoorSecureResearchDirectorLocked: WindoorResearchDirectorLocked
-# PlasmaWindoorSecureSecurityLocked: PlasmaWindoorSecurityLocked # MAYDAY: commented out to prevent daisy chaining
+PlasmaWindoorSecureSecurityLocked: null # MAYDAY: changed to null to prevent daisy chaining
 WindoorSecureScienceLocked: WindoorScienceLocked
 PlasmaWindoorSecureScienceLocked: PlasmaWindoorScienceLocked
 WindoorSecureHeadOfPersonnelLocked: WindoorHeadOfPersonnelLocked
