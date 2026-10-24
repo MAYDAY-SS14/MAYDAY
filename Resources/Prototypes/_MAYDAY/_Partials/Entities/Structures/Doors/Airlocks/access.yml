@@ -46,3 +46,12 @@
 - type: !partialOnly entity
   parent: AirlockCommand
   id: AirlockArmoryGlassLocked
+
+# Maints Airlocks
+- type: !partialOnly entity
+  id: AirlockMaintHeadOfSecurityLocked
+  abstract: true
+
+- type: !partialOnly entity
+  id: AirlockMaintSecLocked
+  abstract: true
