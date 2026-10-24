@@ -1,0 +1,131 @@
+- type: !partialOnly gameMap
+  id: Bagel
+  stations:
+    Bagel:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Box
+  stations:
+    Box:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Elkridge
+  stations:
+    Elkridge:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Exo
+  stations:
+    Exo:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Marathon
+  stations:
+    Marathon:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Packed
+  stations:
+    Packed:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Plasma
+  stations:
+    Plasma:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Relic
+  stations:
+    Relic:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Saltern
+  stations:
+    Saltern:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Snowball
+  stations:
+    Snowball:
+      - type: StationJobs
+        availableJobs:
+        - !Remove HeadOfSecurity
+        - !Remove Warden
+        - !Remove SecurityOfficer
+        - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Sushi
+  stations:
+    Sushi:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
+
+- type: !partialOnly gameMap
+  id: Tram2
+  stations:
+    Tram2:
+    - type: StationJobs
+      availableJobs:
+      - !Remove HeadOfSecurity
+      - !Remove Warden
+      - !Remove SecurityOfficer
+      - !Remove SecurityCadet
