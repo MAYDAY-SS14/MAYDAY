@@ -14,6 +14,7 @@ using Robust.Shared.Maths;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.Manager.Attributes;
 using Robust.Shared.Spawners;
+using Serilog;
 
 namespace Content.IntegrationTests.Tests
 {
@@ -119,7 +120,15 @@ namespace Content.IntegrationTests.Tests
                     .ToList();
                 foreach (var protoId in protoIds)
                 {
-                    entityMan.SpawnEntity(protoId, map.GridCoords);
+                    try
+                    {
+                        entityMan.SpawnEntity(protoId, map.GridCoords);
+                    }
+                    catch (EntityCreationException)
+                    {
+                        Log.Error("Failed to spawn {ProtoId}", protoId);
+                        throw;
+                    }
                 }
             });
             await server.WaitRunTicks(450); // 15 seconds, enough to trigger most update loops
