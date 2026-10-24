@@ -45,7 +45,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Armory",
         "Atmospherics",
         "Bar",
-        // "Brig", // starcup
+        // "Brig", // MAYDAY: removed
         "Detective",
         "Captain",
         "Cargo",
@@ -57,10 +57,10 @@ public sealed partial class IdCardConsoleComponent : Component
         "Cryogenics",
         "Engineering",
         "External",
-        // "GenpopEnter", // starcup
-        // "GenpopLeave", // starcup
+        // "GenpopEnter", // MAYDAY: removed
+        // "GenpopLeave", // MAYDAY: removed
         "HeadOfPersonnel",
-        // "HeadOfSecurity", // starcup
+        // "HeadOfSecurity", // MAYDAY: removed
         "Hydroponics",
         "Janitor",
         "Kitchen",
@@ -71,7 +71,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Research",
         "ResearchDirector",
         "Salvage",
-        // "Security", // starcup
+        // "Security", // MAYDAY: removed
         "Service",
         "Theatre",
     };
