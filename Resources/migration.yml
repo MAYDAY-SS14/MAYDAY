@@ -1078,10 +1078,10 @@ WindoorSecureServiceLocked: WindoorServiceLocked
 WindoorSecureKitchenLocked: WindoorKitchenLocked
 WindoorSecureBarLocked: WindoorBarLocked
 WindoorSecureJanitorLocked: WindoorJanitorLocked
-WindoorSecureSecurityLocked: WindoorSecurityLocked
-WindoorSecureBrigLocked: WindoorBrigLocked
+WindoorSecureSecurityLocked: null # MAYDAY: changed to null to prevent daisy chaining
+WindoorSecureBrigLocked: null # MAYDAY: changed to null to prevent daisy chaining
 WindoorSecureDetectiveLocked: WindoorDetectiveLocked
-WindoorSecureSecurityLawyerLocked: WindoorSecurityLawyerLocked
+WindoorSecureSecurityLawyerLocked: null # MAYDAY: changed to null to prevent daisy chaining
 WindoorSecureCargoLocked: WindoorCargoLocked
 WindoorSecureSalvageLocked: WindoorSalvageLocked
 WindoorSecureChapelLocked: WindoorChapelLocked
@@ -1097,7 +1097,7 @@ UraniumWindoorSecureEngineeringLocked: UraniumWindoorEngineeringLocked
 WindoorSecureExternalLocked: WindoorExternalLocked
 PlasmaWindoorSecureJanitorLocked: PlasmaWindoorJanitorLocked
 WindoorSecureResearchDirectorLocked: WindoorResearchDirectorLocked
-PlasmaWindoorSecureSecurityLocked: PlasmaWindoorSecurityLocked
+# PlasmaWindoorSecureSecurityLocked: PlasmaWindoorSecurityLocked # MAYDAY: commented out to prevent daisy chaining
 WindoorSecureScienceLocked: WindoorScienceLocked
 PlasmaWindoorSecureScienceLocked: PlasmaWindoorScienceLocked
 WindoorSecureHeadOfPersonnelLocked: WindoorHeadOfPersonnelLocked
