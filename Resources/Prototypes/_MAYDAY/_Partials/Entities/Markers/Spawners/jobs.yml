@@ -1,0 +1,15 @@
+- type: !partialOnly entity
+  id: SpawnPointHeadOfSecurity
+  abstract: true
+
+- type: !partialOnly entity
+  id: SpawnPointWarden
+  abstract: true
+
+- type: !partialOnly entity
+  id: SpawnPointSecurityOfficer
+  abstract: true
+
+- type: !partialOnly entity
+  id: SpawnPointSecurityCadet
+  abstract: true

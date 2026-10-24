@@ -1,6 +1,22 @@
 - type: !partialOnly entity
+  id: AirlockHeadOfSecurityLocked
+  abstract: true
+
+- type: !partialOnly entity
+  id: AirlockSecurityLocked
+  abstract: true
+
+- type: !partialOnly entity
   parent: AirlockCommand
   id: AirlockDetectiveLocked
+
+- type: !partialOnly entity
+  id: AirlockBrigLocked
+  abstract: true
+
+- type: !partialOnly entity
+  id: AirlockSecurityLawyerLocked
+  abstract: true
 
 - type: !partialOnly entity
   parent: AirlockCommand
@@ -8,8 +24,24 @@
 
 # Glass Airlocks
 - type: !partialOnly entity
+  id: AirlockHeadOfSecurityGlassLocked
+  abstract: true
+
+- type: !partialOnly entity
+  id: AirlockSecurityGlassLocked
+  abstract: true
+
+- type: !partialOnly entity
   parent: AirlockCommandGlass
   id: AirlockDetectiveGlassLocked
+
+- type: !partialOnly entity
+  id: AirlockBrigGlassLocked
+  abstract: true
+
+- type: !partialOnly entity
+  id: AirlockSecurityLawyerGlassLocked
+  abstract: true
 
 - type: !partialOnly entity
   parent: AirlockCommand

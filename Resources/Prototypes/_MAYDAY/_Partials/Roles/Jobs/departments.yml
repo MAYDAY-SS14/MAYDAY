@@ -4,3 +4,7 @@
   - !Remove HeadOfSecurity
   - Detective
   - Escort
+
+- type: !partialOnly department
+  id: Security
+  abstract: true
