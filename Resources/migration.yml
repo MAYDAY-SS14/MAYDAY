@@ -1172,3 +1172,23 @@ hydroponicsSoil: HydroponicsSoil
 hydroponicsTray: HydroponicsTray
 trayScanner: TRayScanner
 voicesensor: VoiceSensor
+
+# 2026-10-23 # TODO(MAYDAY): move these to a migration directory once that pr is merged
+WindoorSecurityLocked: null
+PlasmaWindoorSecurityLocked: null
+WindoorBrigLocked: null
+WindoorSecurityLawyerLocked: null
+AirlockHeadOfSecurityLocked: null
+AirlockSecurityLocked: null
+AirlockBrigLocked: null
+AirlockSecurityLawyerLocked: null
+AirlockHeadOfSecurityGlassLocked: null
+AirlockSecurityGlassLocked: null
+AirlockBrigGlassLocked: null
+AirlockSecurityLawyerGlassLocked: null
+AirlockMaintHeadOfSecurityLocked: null
+AirlockMaintSecLocked: null
+SpawnPointHeadOfSecurity: null
+SpawnPointWarden: null
+SpawnPointSecurityOfficer: null
+SpawnPointSecurityCadet: null
