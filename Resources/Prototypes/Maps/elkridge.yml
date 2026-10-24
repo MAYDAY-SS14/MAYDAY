@@ -23,7 +23,7 @@
             # Command (7)
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
-            HeadOfSecurity: [ 1, 1 ]
+            #HeadOfSecurity: [ 1, 1 ] # MAYDAY: security department removal
             ChiefMedicalOfficer: [ 1, 1 ]
             ChiefEngineer: [ 1, 1 ]
             ResearchDirector: [ 1, 1 ]
@@ -51,10 +51,10 @@
             Scientist: [ 2, 4 ]
             ResearchAssistant: [ 0, 2 ]
             # Security (9)
-            Warden: [ 1, 1 ]
-            SecurityOfficer: [ 2, 4 ]
+            #Warden: [ 1, 1 ] # MAYDAY: security department removal
+            #SecurityOfficer: [ 2, 4 ] # MAYDAY: security department removal
             Detective: [ 0, 1 ]
-            SecurityCadet: [ 0, 2 ]
+            #SecurityCadet: [ 0, 2 ] # MAYDAY: security department removal
             Lawyer: [ 0, 1 ]
             # Supply (4)
             SalvageSpecialist: [ 1, 2 ]
