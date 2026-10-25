@@ -62,3 +62,74 @@
   id: DresserWardenFilled
   abstract: true
 
+- type: !PartialOnly entity
+  id: CrateSecurityBiosuit
+  abstract: true
+
+- type: !PartialOnly entity
+  id: CrateVendingMachineRestockSecTechFilled
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly entity
+  id: xxx
+  abstract: true

@@ -32,10 +32,15 @@
   id: VendingMachineRestockSecTech
   abstract: true
 
-- type: !PartialOnly entity
-  id: BookSecurity
-  abstract: true
+#- type: !PartialOnly entity
+#  id: BookSecurity
+#  abstract: true
+
+#- type: !PartialOnly entity
+#  id: BookSpaceLaw
+#  abstract: true
 
 - type: !PartialOnly entity
   id: BedsheetHOS
   abstract: true
+

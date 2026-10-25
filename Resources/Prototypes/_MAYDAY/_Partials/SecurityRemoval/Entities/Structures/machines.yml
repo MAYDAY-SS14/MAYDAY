@@ -42,3 +42,12 @@
   id: StationTeleporterSecurity
   abstract: true
 
+- type: !PartialOnly entity
+  parent: TelecomServer
+  id: TelecomServerFilled
+  suffix: Filled All
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - !Remove EncryptionKeySecurity
