@@ -1,0 +1,44 @@
+- type: !PartialOnly entity
+  id: VendingMachineSecDrobe
+  abstract: true
+
+- type: !PartialOnly entity
+  id: VendingMachineSec
+  abstract: true
+
+- type: !PartialOnly entity
+  id: SurveillanceCameraSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: IntercomSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockableButtonHeadOfSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockableButtonSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: SurveillanceCameraRouterSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WeaponEnergyTurretSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WeaponEnergyTurretSecurityControlPanel
+  abstract: true
+
+- type: !PartialOnly entity
+  id: TelecomServerFilledSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: StationTeleporterSecurity
+  abstract: true
+

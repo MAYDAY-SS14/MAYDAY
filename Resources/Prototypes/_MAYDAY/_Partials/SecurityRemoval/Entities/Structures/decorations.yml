@@ -1,19 +1,20 @@
 - type: !PartialOnly entity
-  id: PlasmaWindoorSecurityLocked
+  id: SignSecurity
   abstract: true
 
 - type: !PartialOnly entity
-  id: WindoorSecurityLocked
+  id: BannerSecurity
   abstract: true
 
 - type: !PartialOnly entity
-  parent: WindoorCommandLocked
-  id: WindoorDetectiveLocked
-
-- type: !PartialOnly entity
-  id: WindoorBrigLocked
+  id: PosterLegitSecWatch
   abstract: true
 
 - type: !PartialOnly entity
-  id: WindoorSecurityLawyerLocked
+  id: SignGenpop
   abstract: true
+
+- type: !PartialOnly entity
+  id: SignDirectionalSec
+  abstract: true
+

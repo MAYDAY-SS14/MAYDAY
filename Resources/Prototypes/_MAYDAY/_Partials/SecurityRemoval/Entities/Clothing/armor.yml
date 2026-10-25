@@ -1,15 +1,15 @@
 - type: !PartialOnly entity
-  id: DoorElectronicsHeadOfSecurity
+  id: ClothingOuterBioSecurity
   abstract: true
 
 - type: !PartialOnly entity
-  id: DoorElectronicsSecurity
+  id: ClothingHeadHatHoodBioSecurity
   abstract: true
 
 - type: !PartialOnly entity
-  id: DoorElectronicsSecurityLawyer
+  id: ClothingOuterHardsuitSecurity
   abstract: true
 
 - type: !PartialOnly entity
-  id: DoorElectronicsBrig
+  id: ClothingOuterHardsuitWarden
   abstract: true

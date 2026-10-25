@@ -1,0 +1,64 @@
+- type: !PartialOnly entity
+  id: LockerWarden
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockerWardenFilled
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockerWardenFilledHardsuit
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockerSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockerSecurityFilled
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClosetL3SecurityFilled
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClosetL3Security
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockerHeadOfSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockerHeadOfSecurityFilled
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockerHeadOfSecurityFilledHardsuit
+  abstract: true
+
+- type: !PartialOnly entity
+  id: SuitStorageHOS
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DresserHeadOfSecurityFilled
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WardrobeSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WardrobeSecurityFilled
+  abstract: true
+
+- type: !PartialOnly entity
+  id: SuitStorageSec
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DresserWardenFilled
+  abstract: true
+

@@ -1,0 +1,28 @@
+- type: !PartialOnly entity
+  id: ToyFigurineHeadOfSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ToyFigurineWarden
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ToyFigurineSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: PlushieLizardJobHeadofsecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: PlushieLizardJobWarden
+  abstract: true
+
+- type: !PartialOnly entity
+  id: PlushieLizardJobSecurityofficer
+  abstract: true
+
+- type: !PartialOnly entity
+  id: PlushieLizardJobSecuritycadet
+  abstract: true
+

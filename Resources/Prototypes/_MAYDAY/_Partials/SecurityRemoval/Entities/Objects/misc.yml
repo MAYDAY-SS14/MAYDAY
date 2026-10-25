@@ -1,0 +1,41 @@
+- type: !PartialOnly entity
+  id: DetectiveIDCard
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/id_cards.rsi
+    layers:
+    - state: stripe_top
+      color: "#1b67a5"
+    - state: stripe_bottom
+      color: "#0e4069"
+    - sprite: &icon-rsi _MAYDAY/Interface/Misc/job_icons.rsi
+      offset: &icon-offset -0.09375, 0.0625
+      state: Detective
+
+- type: !PartialOnly entity
+  id: HoSIDCard
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WardenIDCard
+  abstract: true
+
+- type: !PartialOnly entity
+  id: SecurityIDCard
+  abstract: true
+
+- type: !PartialOnly entity
+  id: SecurityCadetIDCard
+  abstract: true
+
+- type: !PartialOnly entity
+  id: VendingMachineRestockSecTech
+  abstract: true
+
+- type: !PartialOnly entity
+  id: BookSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: BedsheetHOS
+  abstract: true

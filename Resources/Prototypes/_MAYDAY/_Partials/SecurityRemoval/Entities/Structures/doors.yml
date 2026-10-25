@@ -1,4 +1,8 @@
 - type: !PartialOnly entity
+  id: AirlockSecurity
+  abstract: true
+
+- type: !PartialOnly entity
   id: AirlockHeadOfSecurityLocked
   abstract: true
 
@@ -23,6 +27,10 @@
   id: AirlockArmoryLocked
 
 # Glass Airlocks
+- type: !PartialOnly entity
+  id: AirlockSecurityGlass
+  abstract: true
+
 - type: !PartialOnly entity
   id: AirlockHeadOfSecurityGlassLocked
   abstract: true
@@ -54,4 +62,25 @@
 
 - type: !PartialOnly entity
   id: AirlockMaintSecLocked
+  abstract: true
+
+# Windoors
+- type: !PartialOnly entity
+  id: PlasmaWindoorSecurityLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WindoorSecurityLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  parent: WindoorCommandLocked
+  id: WindoorDetectiveLocked
+
+- type: !PartialOnly entity
+  id: WindoorBrigLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WindoorSecurityLawyerLocked
   abstract: true

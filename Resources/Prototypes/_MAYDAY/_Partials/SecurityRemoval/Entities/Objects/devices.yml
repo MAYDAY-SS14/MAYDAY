@@ -1,0 +1,47 @@
+- type: !PartialOnly entity
+  id: HoSPDA
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WardenPDA
+  abstract: true
+
+- type: !PartialOnly entity
+  id: SecurityPDA
+  abstract: true
+
+- type: !PartialOnly entity
+  id: SecurityCadetPDA
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DoorElectronicsHeadOfSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DoorElectronicsSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DoorElectronicsSecurityLawyer
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DoorElectronicsBrig
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DoorRemoteSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: EncryptionKeySecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WeaponEnergyTurretStationControlPanelElectronicsBase
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WeaponEnergyTurretStationMachineCircuitboardBase
+  abstract: true
