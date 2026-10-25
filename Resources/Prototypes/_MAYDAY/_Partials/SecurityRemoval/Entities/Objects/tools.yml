@@ -1,8 +1,4 @@
 - type: !PartialOnly entity
-  id: FlashlightSeclite
-  abstract: true
-
-- type: !PartialOnly entity
   id: AccessConfigurator
   components:
   - type: AccessOverrider

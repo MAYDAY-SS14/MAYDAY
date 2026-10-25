@@ -1,45 +1,5 @@
-- type: !PartialOnly entityTable
-  id: AllLizardPlushieTable
+- type: entityTable
+  id: LegitPosterTable
   table: !type:GroupSelector
     children:
-    - !type:GroupSelector # Lizard gets a job table
-      children:
-      - id: PlushieLizardJobAtmospherictechnician
-      - id: PlushieLizardJobBartender
-      - id: PlushieLizardJobBotanist
-      - id: PlushieLizardJobBoxer
-      - id: PlushieLizardJobCaptain
-      - id: PlushieLizardJobCargotechnician
-      - id: PlushieLizardJobChaplain
-      - id: PlushieLizardJobChef
-      - id: PlushieLizardJobChemist
-      - id: PlushieLizardJobChiefengineer
-      - id: PlushieLizardJobChiefmedicalofficer
-      - id: PlushieLizardJobClown # :o)
-      - id: PlushieLizardJobDetective
-      - id: PlushieLizardJobHeadofpersonnel
-      - !Remove id: PlushieLizardJobHeadofsecurity
-      - id: PlushieLizardJobJanitor
-      - id: PlushieLizardJobLawyer
-      - id: PlushieLizardJobLibrarian
-      - id: PlushieLizardJobMedicaldoctor
-      - id: PlushieLizardJobMedicalintern
-      - id: PlushieLizardJobMime #
-      - id: PlushieLizardJobMusician
-      - id: PlushieLizardJobParamedic
-      - id: PlushieLizardJobPassenger
-      - id: PlushieLizardJobPsychologist
-      - id: PlushieLizardJobQuartermaster
-      - id: PlushieLizardJobReporter
-      - id: PlushieLizardJobResearchassistant
-      - id: PlushieLizardJobResearchdirector
-      - id: PlushieLizardJobSalvagespecialist
-      - id: PlushieLizardJobScientist
-      - !Remove id: PlushieLizardJobSecuritycadet
-      - !Remove id: PlushieLizardJobSecurityofficer
-      - id: PlushieLizardJobServiceworker
-      - id: PlushieLizardJobStationengineer
-      - id: PlushieLizardJobTechnicalassistant
-      - id: PlushieLizardJobZookeeper
-      - id: PlushieLizardJobMultiweh
-        weight: 0.5 # 1 in >800
+    - !Remove id: PosterLegitSecWatch

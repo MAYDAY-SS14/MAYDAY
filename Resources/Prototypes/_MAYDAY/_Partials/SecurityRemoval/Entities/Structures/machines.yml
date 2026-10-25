@@ -51,3 +51,10 @@
     containers:
       key_slots:
       - !Remove EncryptionKeySecurity
+
+- type: !PartialOnly entity
+  id: UniformPrinter
+  components:
+  - type: Lathe
+    staticPacks:
+    - !Remove ClothingSecurity

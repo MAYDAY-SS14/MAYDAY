@@ -1,0 +1,52 @@
+- type: !PartialOnly entity
+  id: RandomHumanoidVisitorHOS
+  abstract: true
+
+- type: !PartialOnly entity
+  id: RandomHumanoidVisitorSecurityCadet
+  abstract: true
+
+- type: !PartialOnly entity
+  id: RandomHumanoidVisitorSecurityOfficer
+  abstract: true
+
+- type: !PartialOnly entity
+  id: RandomHumanoidVisitorWarden
+  abstract: true
+
+- type: !PartialOnly entity
+  id: CommandVisitorSpawner
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - !Remove RandomHumanoidVisitorHOS
+
+- type: !PartialOnly entity
+  id: SecurityVisitorSpawner
+  abstract: true
+
+- type: !PartialOnly entity
+  id: VisitorSecurityCadetSpawner
+  abstract: true
+
+- type: !PartialOnly entity
+  id: VisitorSecurityOfficerSpawner
+  abstract: true
+
+- type: !PartialOnly entity
+  id: VisitorWarden
+  abstract: true
+
+- type: !PartialOnly entity
+  id: VisitorHOSSpawner
+  abstract: true
+
+- type: !PartialOnly entity
+  id: NTVisitorSpawner
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - !Remove RandomHumanoidVisitorHOS
+    - !Remove RandomHumanoidVisitorSecurityCadet
+    - !Remove RandomHumanoidVisitorSecurityOfficer
+    - !Remove RandomHumanoidVisitorWarden

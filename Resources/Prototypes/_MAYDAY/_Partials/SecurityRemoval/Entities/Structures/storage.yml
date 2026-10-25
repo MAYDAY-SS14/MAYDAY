@@ -71,7 +71,7 @@
   abstract: true
 
 - type: !PartialOnly entity
-  id: xxx
+  id: SuitStorageWarden
   abstract: true
 
 - type: !PartialOnly entity

@@ -35,6 +35,10 @@
   abstract: true
 
 - type: !PartialOnly entity
+  id: ClothingHeadsetBrigmedic
+  abstract: true
+
+- type: !PartialOnly entity
   id: ClothingOuterWinterSec
   abstract: true
 
