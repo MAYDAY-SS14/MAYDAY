@@ -167,6 +167,7 @@
 #Security hardsuit
 - type: entity
   parent: SuitStorageBase
+  abstract: true # MAYDAY: security department removal
   id: SuitStorageSec
   suffix: Security
   components:
@@ -227,6 +228,7 @@
 #HOS's hardsuit
 - type: entity
   parent: SuitStorageBase
+  abstract: true # MAYDAY: security department removal
   id: SuitStorageHOS
   suffix: Head of Security
   components:
@@ -240,6 +242,7 @@
 #Warden's hardsuit
 - type: entity
   parent: SuitStorageBase
+  abstract: true # MAYDAY: security department removal
   id: SuitStorageWarden
   suffix: Warden
   components:

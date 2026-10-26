@@ -1,7 +1,0 @@
-- type: !PartialOnly entity
-  id: BoxHoSCircuitboards
-  abstract: true
-
-- type: !PartialOnly entity
-  id: BoxEncryptionKeySecurity
-  abstract: true

@@ -348,6 +348,7 @@
 - type: entity
   name: security encryption key box
   parent: BoxEncryptionKeyPassenger
+  abstract: true # MAYDAY: security department removal
   id: BoxEncryptionKeySecurity
   components:
   - type: EntityTableContainerFill
