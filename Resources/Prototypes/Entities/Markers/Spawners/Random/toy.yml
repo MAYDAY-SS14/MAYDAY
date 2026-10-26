@@ -158,10 +158,10 @@
     - id: ToyFigurineResearchDirector
     - id: ToyFigurineScientist
     # Security
-    - id: ToyFigurineHeadOfSecurity
-    - id: ToyFigurineWarden
+    #- id: ToyFigurineHeadOfSecurity # MAYDAY: security department removal
+    #- id: ToyFigurineWarden # MAYDAY: security department removal
     - id: ToyFigurineDetective
-    - id: ToyFigurineSecurity
+    #- id: ToyFigurineSecurity # MAYDAY: security department removal
     # Service
     - id: ToyFigurineHeadOfPersonnel
     - id: ToyFigurinePassenger
