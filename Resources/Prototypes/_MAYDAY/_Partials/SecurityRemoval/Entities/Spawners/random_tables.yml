@@ -1,5 +1,0 @@
-- type: entityTable
-  id: LegitPosterTable
-  table: !type:GroupSelector
-    children:
-    - !Remove id: PosterLegitSecWatch
