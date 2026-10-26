@@ -43,5 +43,5 @@
   abstract: true
 
 - type: !PartialOnly entity
-  id: WeaponEnergyTurretStationMachineCircuitboardBase
+  id: WeaponEnergyTurretSecurityMachineCircuitboard
   abstract: true
