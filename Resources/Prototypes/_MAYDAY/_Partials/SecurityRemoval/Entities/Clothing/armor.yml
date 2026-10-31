@@ -13,3 +13,11 @@
 - type: !PartialOnly entity
   id: ClothingOuterHardsuitWarden
   abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterHardsuitMedical
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterHardsuitRd
+  abstract: true

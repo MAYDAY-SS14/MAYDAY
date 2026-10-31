@@ -45,3 +45,11 @@
 - type: !PartialOnly entity
   id: WardrobeSecurityFilled
   abstract: true
+
+- type: !PartialOnly entity
+  id: LockerChiefMedicalOfficerFilledHardsuit
+  abstract: true
+
+- type: !PartialOnly entity
+  id: LockerResearchDirectorFilledHardsuit
+  abstract: true
