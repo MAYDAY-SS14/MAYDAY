@@ -1,0 +1,35 @@
+# Tabs
+
+- type: !PartialOnly quickPhrase
+  id: BaseCommonPhrase
+  tab: phrase-tab-common
+
+- type: !PartialOnly quickPhrase
+  id: BaseJobPhrase
+  tab: phrase-tab-jobs
+
+- type: !PartialOnly quickPhrase
+  id: BaseLocationPhrase
+  tab: phrase-tab-locations
+
+- type: !PartialOnly quickPhrase
+  id: BaseSubjectPhrase
+  tab: phrase-tab-subjects
+
+- type: !PartialOnly quickPhrase
+  id: BaseThreatPhrase
+  tab: phrase-tab-safety
+
+- type: !PartialOnly quickPhrase
+  id: BaseSpeciesPhrase
+  tab: phrase-tab-species
+
+# Departments
+
+- type: !PartialOnly quickPhrase
+  id: BaseEpistemicsPhrase
+  group: Science
+
+- type: !PartialOnly quickPhrase
+  id: BaseLogisticsPhrase
+  group: Cargo
