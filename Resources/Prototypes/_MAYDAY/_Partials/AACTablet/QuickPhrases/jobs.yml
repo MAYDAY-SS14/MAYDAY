@@ -1,0 +1,89 @@
+# Command
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: CentralCommandInternPhrase
+
+# Science / "Epistemics"
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: PsionicMantisPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: ArchivistPhrase
+
+# Cargo / "Logistics"
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: CourierPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: CargoAssistantPhrase
+
+# Justice
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: ChiefJusticePhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: ProsecutorPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: ClerkPhrase
+
+# Medical
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SurgeonPhrase
+
+# Security
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: HeadOfSecurityPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: WardenPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SecurityOfficerPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SecurityCadetPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: PrisonGuardPhrase
+
+# Wildcard
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: ZookeeperPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: MartialArtistPhease
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: PrisonerPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: GladiatorPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: CorpsmanPhrase

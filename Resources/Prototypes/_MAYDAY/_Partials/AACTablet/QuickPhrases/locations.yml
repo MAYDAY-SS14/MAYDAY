@@ -1,0 +1,107 @@
+# Command
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationConferenceRoomPhrase
+
+# Science / "Epistemics"
+
+- type: !PartialOnly quickPhrase
+  id: LocationEpistemicsPhrase
+  text: station-beacon-science
+
+- type: !PartialOnly quickPhrase
+  id: LocationMystagoguePhrase
+  text: station-beacon-research-director
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationMantisPhrase
+
+# Justice
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationProsecutorPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationChiefJusticePhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationClerkPhrase
+
+# Cargo / "Logistics"
+
+- type: !PartialOnly quickPhrase
+  id: LocationLogisticsPhrase
+  text: station-beacon-cargo
+
+- type: !PartialOnly quickPhrase
+  id: LocationLoPhrase
+  text: station-beacon-qm
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationMailPhrase
+
+# Security
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationSecurityPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationBrigPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationWardenPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationHosPhrase
+
+#- type: quickPhrase
+#  parent: BaseSecurityLocationPhrase
+#  id: LocationArmoryPhrase
+#  text: station-beacon-armory
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationPermaPhrase
+
+#- type: quickPhrase
+#  parent: BaseSecurityLocationPhrase
+#  id: LocationDetectivePhrase
+#  text: station-beacon-detective
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationSecCheckpointPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationCorpsmanPhrase
+
+# Service
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationJaniOfficePhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationJaniClosetPhrase
+
+# Civilian
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationParkPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: LocationCamerasPhrase

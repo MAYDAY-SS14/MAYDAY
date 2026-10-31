@@ -1,0 +1,43 @@
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesHarpyPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesOniPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesFeroxiPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesKitsunePhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesKThavenPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesChitnidePhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesAvaliPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesOviniaPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesAllulaloPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesFelinidPhrase
+
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: SpeciesRodentiaPhrase
