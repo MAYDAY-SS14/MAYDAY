@@ -27,8 +27,10 @@
   id: VisitorDetective
   equipment:
     ears: ClothingHeadsetCommand
+    outerClothing: ClothingOuterTrenchcoatDetective
 
 - type: !PartialOnly startingGear
   id: VisitorDetectiveAlt
   equipment:
     ears: ClothingHeadsetCommand
+    outerClothing: ClothingOuterTrenchcoatDetectiveGrey
