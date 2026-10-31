@@ -1,0 +1,5 @@
+- type: !PartialOnly job
+  id: ChiefMedicalOfficer
+  access:
+  - Armory
+  - !Remove Brig

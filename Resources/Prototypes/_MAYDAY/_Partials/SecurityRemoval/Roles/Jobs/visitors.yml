@@ -1,0 +1,34 @@
+- type: !PartialOnly startingGear
+  id: VisitorLawyerAltA
+  equipment:
+    ears: ClothingHeadsetCommand
+
+- type: !PartialOnly startingGear
+  id: VisitorLawyerAltB
+  equipment:
+    ears: ClothingHeadsetCommand
+
+- type: !PartialOnly startingGear
+  id: VisitorLawyerAltC
+  equipment:
+    ears: ClothingHeadsetCommand
+
+- type: !PartialOnly startingGear
+  id: VisitorLawyerAltD
+  equipment:
+    ears: ClothingHeadsetCommand
+
+- type: !PartialOnly startingGear
+  id: VisitorLawyerAltE
+  equipment:
+    ears: ClothingHeadsetCommand
+
+- type: !PartialOnly startingGear
+  id: VisitorDetective
+  equipment:
+    ears: ClothingHeadsetCommand
+
+- type: !PartialOnly startingGear
+  id: VisitorDetectiveAlt
+  equipment:
+    ears: ClothingHeadsetCommand

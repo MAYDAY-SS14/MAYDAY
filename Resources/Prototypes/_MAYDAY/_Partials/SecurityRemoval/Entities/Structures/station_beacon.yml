@@ -1,0 +1,43 @@
+- type: !PartialOnly entity
+  id: DefaultStationBeaconSecurityCheckpoint
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconPermaBrig
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconHOSRoom
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconWardensOffice
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconBrigMed
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconBrig
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconDetectiveRoom
+  parent: DefaultStationBeaconCommand
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconArmory
+  parent: DefaultStationBeaconCommand
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconCourtroom
+  parent: DefaultStationBeacon
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconLawOffice
+  parent: DefaultStationBeacon

@@ -1,0 +1,47 @@
+- type: !PartialOnly entity
+  id: ClothingUniformJumpsuitSec
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingUniformJumpskirtSec
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingHeadHatBeretSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingHeadHatSecsoft
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingHeadHatSecsoftFlipped
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingUniformJumpsuitSecGrey
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingUniformJumpskirtSecGrey
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingHeadsetSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingHeadsetAltSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingHeadsetBrigmedic
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterWinterSec
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingShoesBootsWinterSec
+  abstract: true

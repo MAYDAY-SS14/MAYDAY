@@ -1,0 +1,14 @@
+- type: !PartialOnly job
+  id: Detective
+  supervisors: job-supervisors-captain
+  access:
+  - Armory
+  - Command
+  - !Remove Brig
+  - !Remove Security
+
+- type: !PartialOnly startingGear
+  id: DetectiveGear
+  equipment:
+    eyes: ClothingEyesGlassesCommand
+    ears: ClothingHeadsetCommand

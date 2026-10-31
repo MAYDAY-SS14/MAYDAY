@@ -643,9 +643,9 @@ MatterBinStockPart: MicroManipulatorStockPart
 CapacitorStockPart: MicroManipulatorStockPart
 
 # 2025-05-26 Turrets
-WeaponEnergyTurretStation: WeaponEnergyTurretSecurity
-WeaponEnergyTurretStationControlPanel: WeaponEnergyTurretSecurityControlPanel
-WeaponEnergyTurretStationMachineCircuitboard: WeaponEnergyTurretSecurityMachineCircuitboard
+WeaponEnergyTurretStation: null # MAYDAY: changed to null to prevent daisy chaining
+WeaponEnergyTurretStationControlPanel: null # MAYDAY: changed to null to prevent daisy chaining
+WeaponEnergyTurretStationMachineCircuitboard: null # MAYDAY: changed to null to prevent daisy chaining
 
 # 2025-05-30
 SpawnHonkBot: SpawnMobHonkBot
@@ -1078,10 +1078,10 @@ WindoorSecureServiceLocked: WindoorServiceLocked
 WindoorSecureKitchenLocked: WindoorKitchenLocked
 WindoorSecureBarLocked: WindoorBarLocked
 WindoorSecureJanitorLocked: WindoorJanitorLocked
-WindoorSecureSecurityLocked: WindoorSecurityLocked
-WindoorSecureBrigLocked: WindoorBrigLocked
+WindoorSecureSecurityLocked: null # MAYDAY: changed to null to prevent daisy chaining
+WindoorSecureBrigLocked: null # MAYDAY: changed to null to prevent daisy chaining
 WindoorSecureDetectiveLocked: WindoorDetectiveLocked
-WindoorSecureSecurityLawyerLocked: WindoorSecurityLawyerLocked
+WindoorSecureSecurityLawyerLocked: null # MAYDAY: changed to null to prevent daisy chaining
 WindoorSecureCargoLocked: WindoorCargoLocked
 WindoorSecureSalvageLocked: WindoorSalvageLocked
 WindoorSecureChapelLocked: WindoorChapelLocked
@@ -1097,7 +1097,7 @@ UraniumWindoorSecureEngineeringLocked: UraniumWindoorEngineeringLocked
 WindoorSecureExternalLocked: WindoorExternalLocked
 PlasmaWindoorSecureJanitorLocked: PlasmaWindoorJanitorLocked
 WindoorSecureResearchDirectorLocked: WindoorResearchDirectorLocked
-PlasmaWindoorSecureSecurityLocked: PlasmaWindoorSecurityLocked
+PlasmaWindoorSecureSecurityLocked: null # MAYDAY: changed to null to prevent daisy chaining
 WindoorSecureScienceLocked: WindoorScienceLocked
 PlasmaWindoorSecureScienceLocked: PlasmaWindoorScienceLocked
 WindoorSecureHeadOfPersonnelLocked: WindoorHeadOfPersonnelLocked
@@ -1172,3 +1172,130 @@ hydroponicsSoil: HydroponicsSoil
 hydroponicsTray: HydroponicsTray
 trayScanner: TRayScanner
 voicesensor: VoiceSensor
+
+# 2026-10-23 # TODO(MAYDAY): move these to a migration directory once that pr is merged
+WindoorSecurityLocked: null
+PlasmaWindoorSecurityLocked: null
+WindoorBrigLocked: null
+WindoorSecurityLawyerLocked: null
+AirlockHeadOfSecurityLocked: null
+AirlockSecurityLocked: null
+AirlockBrigLocked: null
+AirlockSecurityLawyerLocked: null
+AirlockHeadOfSecurityGlassLocked: null
+AirlockSecurityGlassLocked: null
+AirlockBrigGlassLocked: null
+AirlockSecurityLawyerGlassLocked: null
+AirlockMaintHeadOfSecurityLocked: null
+AirlockMaintSecLocked: null
+SpawnPointHeadOfSecurity: null
+SpawnPointWarden: null
+SpawnPointSecurityOfficer: null
+SpawnPointSecurityCadet: null
+RandomSecurityCorpseSpawner: null
+ClothingOuterBioSecurity: null
+ClothingHeadHatHoodBioSecurity: null
+ClothingOuterHardsuitSecurity: null
+ClothingOuterHardsuitWarden: null
+BoxHoSCircuitboards: null
+BoxEncryptionKeySecurity: null
+ClothingUniformJumpsuitSec: null
+ClothingUniformJumpskirtSec: null
+ClothingHeadHatBeretSecurity: null
+ClothingHeadHatSecsoft: null
+ClothingHeadHatSecsoftFlipped: null
+ClothingUniformJumpsuitSecGrey: null
+ClothingUniformJumpskirtSecGrey: null
+ClothingHeadsetSecurity: null
+ClothingHeadsetAltSecurity: null
+ClothingOuterWinterSec: null
+ClothingShoesBootsWinterSec: null
+SignSecurity: null
+BannerSecurity: null
+PosterLegitSecWatch: null
+SignGenpop: null
+SignDirectionalSec: null
+HoSPDA: null
+WardenPDA: null
+SecurityPDA: null
+SecurityCadetPDA: null
+DoorElectronicsHeadOfSecurity: null
+DoorElectronicsSecurity: null
+DoorElectronicsSecurityLawyer: null
+DoorElectronicsBrig: null
+DoorRemoteSecurity: null
+EncryptionKeySecurity: null
+WeaponEnergyTurretStationControlPanelElectronicsBase: null
+WeaponEnergyTurretStationMachineCircuitboardBase: null
+AirlockSecurity: null
+AirlockSecurityGlass: null
+ToyFigurineHeadOfSecurity: null
+ToyFigurineWarden: null
+ToyFigurineSecurity: null
+PlushieLizardJobHeadofsecurity: null
+PlushieLizardJobWarden: null
+PlushieLizardJobSecurityofficer: null
+PlushieLizardJobSecuritycadet: null
+HolopadSecurityFront: null
+HolopadSecurityBrig: null
+HolopadSecurityWarden: null
+HolopadSecurityBreakroom: null
+HolopadSecurityPerma: null
+HolopadSecurityLockerRoom: null
+HolopadSecurityBrigMed: null
+HolopadSecurityEvacCheckpoint: null
+HolopadSecurityArrivalsCheckpoint: null
+VendingMachineSecDrobe: null
+VendingMachineSec: null
+SurveillanceCameraSecurity: null
+IntercomSecurity: null
+LockableButtonHeadOfSecurity: null
+LockableButtonSecurity: null
+SurveillanceCameraRouterSecurity: null
+WeaponEnergyTurretSecurity: null
+WeaponEnergyTurretSecurityControlPanel: null
+TelecomServerFilledSecurity: null
+StationTeleporterSecurity: null
+HoSIDCard: null
+WardenIDCard: null
+SecurityIDCard: null
+SecurityCadetIDCard: null
+VendingMachineRestockSecTech: null
+BookSecurity: null
+BedsheetHOS: null
+DefaultStationBeaconSecurityCheckpoint: null
+DefaultStationBeaconPermaBrig: null
+DefaultStationBeaconHOSRoom: null
+DefaultStationBeaconWardensOffice: null
+DefaultStationBeaconBrigMed: null
+DefaultStationBeaconBrig: null
+DefaultStationBeaconSecurity: null
+LockerWarden: null
+LockerWardenFilled: null
+LockerWardenFilledHardsuit: null
+LockerSecurity: null
+LockerSecurityFilled: null
+ClosetL3SecurityFilled: null
+ClosetL3Security: null
+LockerHeadOfSecurity: null
+LockerHeadOfSecurityFilled: null
+LockerHeadOfSecurityFilledHardsuit: null
+SuitStorageHOS: null
+DresserHeadOfSecurityFilled: null
+WardrobeSecurity: null
+WardrobeSecurityFilled: null
+SuitStorageSec: null
+DresserWardenFilled: null
+FlashlightSeclite: null
+CrateVendingMachineRestockSecTechFilled: null
+SuitStorageWarden: null
+SuitStorageRD: null
+SuitStorageCMO: null
+LockerResearchDirectorFilledHardsuit: LockerResearchDirectorFilled
+LockerChiefMedicalOfficerFilledHardsuit: LockerChiefMedicalOfficerFilled
+ClothingOuterHardsuitRd: null
+ClothingOuterHardsuitMedical: null
+ClothingOuterCoatDetective: ClothingOuterTrenchcoatDetective
+ClothingOuterCoatDetectiveLoadout: ClothingOuterTrenchcoatDetective
+ClothingOuterCoatDetectiveLoadoutGrey: ClothingOuterTrenchcoatDetectiveGrey
+ClothingOuterVestDetective: null

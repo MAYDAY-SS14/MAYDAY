@@ -1,5 +1,6 @@
 - type: guideEntry
   id: Security
+  abstract: true # MAYDAY: security department removal
   name: guide-entry-security
   text: "/ServerInfo/Guidebook/Security/Security.xml"
   children:
@@ -14,6 +15,7 @@
 
 - type: guideEntry
   id: Defusal
+  abstract: true # MAYDAY: security department removal
   name: guide-entry-defusal
   text: "/ServerInfo/Guidebook/Security/Defusal.xml"
 

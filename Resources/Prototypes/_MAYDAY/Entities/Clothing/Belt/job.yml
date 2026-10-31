@@ -1,0 +1,62 @@
+- type: entity
+  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseCommandContraband]
+  id: ClothingBeltEscort
+  name: escort belt
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/security.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/security.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: Storage
+    whitelist:
+      tags:
+      - CigPack
+      - Taser
+      - SecBeltEquip
+      - Radio
+      - Sidearm
+      - MagazinePistol
+      - MagazineMagnum
+      - CombatKnife
+      - HandGrenade
+      - Stunbaton
+      components:
+      - FlashOnTrigger
+      - SmokeOnTrigger
+      - Flash
+      - Handcuff
+      - BallisticAmmoProvider
+      - CartridgeAmmo
+      - DoorRemote
+      - Whistle
+      - BalloonPopper
+  - type: ItemMapper
+    sprite: Clothing/Belt/belt_overlay.rsi
+    mapLayers:
+      flashbang:
+        whitelist:
+          components:
+          - FlashOnTrigger
+      stunbaton:
+        whitelist:
+          tags:
+          - Stunbaton
+      tear_gas_grenade:
+        whitelist:
+          components:
+          - SmokeOnTrigger
+  - type: Appearance
+
+- type: entity
+  parent: ClothingBeltEscort
+  id: ClothingBeltEscortWebbing
+  name: escort carrier
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/securitywebbing.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/securitywebbing.rsi

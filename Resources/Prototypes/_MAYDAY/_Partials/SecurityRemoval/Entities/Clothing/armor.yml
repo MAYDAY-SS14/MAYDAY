@@ -1,0 +1,39 @@
+- type: !PartialOnly entity
+  id: ClothingOuterBioSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingHeadHatHoodBioSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterHardsuitSecurity
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterHardsuitWarden
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterHardsuitMedical
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterHardsuitRd
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterCoatDetective
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterCoatDetectiveLoadout
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterCoatDetectiveLoadoutGrey
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterVestDetective
+  abstract: true

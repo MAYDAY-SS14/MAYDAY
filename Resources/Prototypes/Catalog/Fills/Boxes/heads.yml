@@ -66,6 +66,7 @@
 - type: entity
   parent: ToteBase
   id: BoxHoSCircuitboards
+  abstract: true # MAYDAY: security department removal
   name: security circuit tote
   components:
   - type: EntityTableContainerFill
