@@ -9,7 +9,12 @@
   id: CaptainOuterClothing
   abstract: true
 
-# Loadouts
-- type: !PartialOnly loadout
-  id: DetectiveArmorVest
-  abstract: true
+- type: !PartialOnly loadoutGroup
+  id: DetectiveOuterClothing
+  loadouts:
+  - !Remove DetectiveArmorVest
+  - !Remove DetectiveCoat
+  - !Remove DetectiveCoatGrey
+  - !Remove SecurityOfficerWintercoat
+  - DetectiveTrenchcoat
+  - DetectiveTrenchcoatGrey

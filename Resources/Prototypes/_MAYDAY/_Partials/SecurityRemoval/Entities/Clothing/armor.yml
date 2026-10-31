@@ -21,3 +21,19 @@
 - type: !PartialOnly entity
   id: ClothingOuterHardsuitRd
   abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterCoatDetective
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterCoatDetectiveLoadout
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterCoatDetectiveLoadoutGrey
+  abstract: true
+
+- type: !PartialOnly entity
+  id: ClothingOuterVestDetective
+  abstract: true

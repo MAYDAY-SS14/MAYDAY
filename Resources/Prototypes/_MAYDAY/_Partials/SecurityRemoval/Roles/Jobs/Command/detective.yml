@@ -6,3 +6,9 @@
   - Command
   - !Remove Brig
   - !Remove Security
+
+- type: !PartialOnly startingGear
+  id: DetectiveGear
+  equipment:
+    eyes: ClothingEyesGlassesCommand
+    ears: ClothingHeadsetCommand

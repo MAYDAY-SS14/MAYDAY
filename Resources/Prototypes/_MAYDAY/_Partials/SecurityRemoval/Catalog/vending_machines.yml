@@ -1,0 +1,9 @@
+- type: !PartialOnly vendingMachineInventory
+  id: DetDrobeInventory
+  startingInventory:
+    !Remove ClothingOuterCoatDetectiveLoadout: 1
+    !Remove ClothingOuterCoatDetectiveLoadoutGrey: 1
+    !Remove ClothingHeadsetSecurity: 2
+    !Remove ClothingOuterVestDetective: 2
+    ClothingOuterTrenchcoatDetective: 1
+    ClothingOuterTrenchcoatDetectiveGrey: 1

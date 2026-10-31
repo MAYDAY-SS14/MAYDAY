@@ -43,3 +43,25 @@
     sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
+
+- type: entity
+  parent: [ ClothingOuterStorageBase, AllowSuitStorageClothing ]
+  id: ClothingOuterTrenchcoatDetective
+  name: detective's trenchcoat
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/detective.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/detective.rsi
+
+- type: entity
+  parent: [ ClothingOuterStorageBase, AllowSuitStorageClothing ]
+  id: ClothingOuterTrenchcoatDetectiveGrey
+  name: detective's noir trenchcoat
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/detective_grey.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/detective_grey.rsi
