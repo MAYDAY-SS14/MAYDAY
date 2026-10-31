@@ -8,3 +8,12 @@
   name: guide-entry-command
   text: "/ServerInfo/_MAYDAY/Guidebook/Command.xml"
 
+- type: !PartialOnly guideEntry
+  id: Traitors
+  name: guide-entry-traitors
+  text: "/ServerInfo/_MAYDAY/Guidebook/Antagonist/Traitors.xml"
+
+- type: !PartialOnly guideEntry
+  id: Defusal
+  name: guide-entry-defusal
+  text: "/ServerInfo/_MAYDAY/Guidebook/Defusal.xml"
