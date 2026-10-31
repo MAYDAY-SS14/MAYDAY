@@ -1,0 +1,5 @@
+- type: !PartialOnly entity
+  id: AACTablet
+  components:
+  - type: Injurable  # remove when fixed upstream
+    damageContainer: Inorganic
