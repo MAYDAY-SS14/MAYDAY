@@ -45,3 +45,7 @@
 - type: !PartialOnly entity
   id: ClothingShoesBootsWinterSec
   abstract: true
+
+- type: !PartialOnly entity
+  abstract: true
+  id: ClothingEyesGlassesCheapSunglasses

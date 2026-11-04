@@ -16,7 +16,7 @@
   parent: [ClothingEyesBase, ClothingEyesGlassesBase]
   id: ClothingEyesSunglassesBase
   components:
-  - type: FlashImmunity
+  #- type: FlashImmunity # MAYDAY: security department overhaul
   - type: EyeProtection
     protectionTime: 5
   - type: IdentityBlocker
