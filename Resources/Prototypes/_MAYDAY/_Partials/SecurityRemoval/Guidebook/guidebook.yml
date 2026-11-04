@@ -1,12 +1,12 @@
 - type: !PartialOnly guideEntry
-  id: Airlocks
-  name: guide-entry-airlocks
-  text: "/ServerInfo/_MAYDAY/Guidebook/Engineering/Airlocks.xml"
-
-- type: !PartialOnly guideEntry
   id: Command
   name: guide-entry-command
   text: "/ServerInfo/_MAYDAY/Guidebook/Command.xml"
+
+- type: !PartialOnly guideEntry
+  id: Airlocks
+  name: guide-entry-airlocks
+  text: "/ServerInfo/_MAYDAY/Guidebook/Engineering/Airlocks.xml"
 
 - type: !PartialOnly guideEntry
   id: Traitors
@@ -16,4 +16,9 @@
 - type: !PartialOnly guideEntry
   id: Defusal
   name: guide-entry-defusal
-  text: "/ServerInfo/_MAYDAY/Guidebook/Defusal.xml"
+  text: "/ServerInfo/_MAYDAY/Guidebook/Safety/Defusal.xml"
+
+- type: !PartialOnly guideEntry
+  id: Forensics
+  name: guide-entry-forensics
+  text: "/ServerInfo/_MAYDAY/Guidebook/Command/Forensics.xml"

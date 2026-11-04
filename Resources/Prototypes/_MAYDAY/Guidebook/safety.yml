@@ -1,0 +1,7 @@
+- type: guideEntry
+  id: Safety
+  name: guide-entry-safety
+  text: "/ServerInfo/_MAYDAY/Guidebook/Safety/Safety.xml"
+  children:
+  - Defusal
+  - CriminalRecords

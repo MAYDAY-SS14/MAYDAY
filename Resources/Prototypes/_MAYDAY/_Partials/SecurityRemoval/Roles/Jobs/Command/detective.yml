@@ -12,3 +12,4 @@
   equipment:
     eyes: ClothingEyesGlassesCommand
     ears: ClothingHeadsetCommand
+    belt: ClothingBeltStorageWaistbag
