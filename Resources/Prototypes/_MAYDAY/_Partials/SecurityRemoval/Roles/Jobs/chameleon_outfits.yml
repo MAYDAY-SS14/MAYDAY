@@ -1,0 +1,71 @@
+- type: !PartialOnly chameleonOutfit
+  id: CargoTechnicianChameleonOutfit
+  job: CargoTechnician
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: SalvageSpecialistChameleonOutfit
+  job: SalvageSpecialist
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: PassengerChameleonOutfit
+  job: Passenger
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: PrisonerChameleonOutfit
+  name: job-name-prisoner
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: BotanistChameleonOutfit
+  job: Botanist
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: ChefChameleonOutfit
+  job: Chef
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: ClownChameleonOutfit
+  job: Clown
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: JanitorChameleonOutfit
+  job: Janitor
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: LawyerChameleonOutfit
+  job: Lawyer
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: MimeChameleonOutfit
+  job: Mime
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: ServiceWorkerChameleonOutfit
+  job: ServiceWorker
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses
+
+- type: !PartialOnly chameleonOutfit
+  id: ReporterChameleonOutfit
+  job: Reporter
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses

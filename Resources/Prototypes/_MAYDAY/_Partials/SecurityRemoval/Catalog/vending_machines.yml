@@ -7,3 +7,9 @@
     !Remove ClothingOuterVestDetective: 2
     ClothingOuterTrenchcoatDetective: 1
     ClothingOuterTrenchcoatDetectiveGrey: 1
+
+- type: !PartialOnly vendingMachineInventory
+  id: ClothesMateInventory
+  startingInventory:
+    !Remove ClothingEyesGlassesCheapSunglasses: 3
+    ClothingEyesGlassesSunglasses: 3
