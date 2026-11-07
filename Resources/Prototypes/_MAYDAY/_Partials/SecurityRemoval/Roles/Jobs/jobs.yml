@@ -1,0 +1,7 @@
+- type: !PartialOnly startingGear
+  id: LawyerGear
+  equipment:
+    ears: ClothingHeadsetCommand
+  storage:
+    back:
+    - !Remove BookSpaceLaw

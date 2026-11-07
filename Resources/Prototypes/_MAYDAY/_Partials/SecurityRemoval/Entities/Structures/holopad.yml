@@ -1,0 +1,35 @@
+- type: !PartialOnly entity
+  id: HolopadSecurityFront
+  abstract: true
+
+- type: !PartialOnly entity
+  id: HolopadSecurityBrig
+  abstract: true
+
+- type: !PartialOnly entity
+  id: HolopadSecurityWarden
+  abstract: true
+
+- type: !PartialOnly entity
+  id: HolopadSecurityBreakroom
+  abstract: true
+
+- type: !PartialOnly entity
+  id: HolopadSecurityPerma
+  abstract: true
+
+- type: !PartialOnly entity
+  id: HolopadSecurityLockerRoom
+  abstract: true
+
+- type: !PartialOnly entity
+  id: HolopadSecurityBrigMed
+  abstract: true
+
+- type: !PartialOnly entity
+  id: HolopadSecurityEvacCheckpoint
+  abstract: true
+
+- type: !PartialOnly entity
+  id: HolopadSecurityArrivalsCheckpoint
+  abstract: true

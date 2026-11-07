@@ -1,0 +1,17 @@
+- type: guideEntry
+  id: Safety
+  name: guide-entry-safety
+  text: "/ServerInfo/_MAYDAY/Guidebook/Safety/Safety.xml"
+  children:
+  - Defusal
+  - CriminalRecords
+  - Armory
+
+- type: guideEntry
+  id: Armory
+  name: guide-entry-armory
+  text: "/ServerInfo/_MAYDAY/Guidebook/Safety/Armory.xml"
+  children:
+  - Defusal
+  - CriminalRecords
+  - Armory

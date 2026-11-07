@@ -1,0 +1,11 @@
+- type: entity
+  id: SpawnPointEscort
+  parent: SpawnPointJobBase
+  name: escort
+  components:
+  - type: SpawnPoint
+    job_id: Escort
+  - type: Sprite
+    layers:
+    - state: green
+    - state: warden

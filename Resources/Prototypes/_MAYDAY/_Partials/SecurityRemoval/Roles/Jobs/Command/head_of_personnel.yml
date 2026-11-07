@@ -1,0 +1,8 @@
+- type: !PartialOnly job
+  id: HeadOfPersonnel
+  access:
+  - Armory
+  - !Remove Brig
+  - !Remove Security
+  - !Remove GenpopEnter
+  - !Remove GenpopLeave

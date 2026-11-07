@@ -108,7 +108,7 @@
       - id: PlushieLizardJobClown # :o)
       - id: PlushieLizardJobDetective
       - id: PlushieLizardJobHeadofpersonnel
-      - id: PlushieLizardJobHeadofsecurity
+      #- id: PlushieLizardJobHeadofsecurity # MAYDAY: security department removal
       - id: PlushieLizardJobJanitor
       - id: PlushieLizardJobLawyer
       - id: PlushieLizardJobLibrarian
@@ -125,8 +125,8 @@
       - id: PlushieLizardJobResearchdirector
       - id: PlushieLizardJobSalvagespecialist
       - id: PlushieLizardJobScientist
-      - id: PlushieLizardJobSecuritycadet
-      - id: PlushieLizardJobSecurityofficer
+      #- id: PlushieLizardJobSecuritycadet # MAYDAY: security department removal
+      #- id: PlushieLizardJobSecurityofficer # MAYDAY: security department removal
       - id: PlushieLizardJobServiceworker
       - id: PlushieLizardJobStationengineer
       - id: PlushieLizardJobTechnicalassistant
@@ -158,10 +158,10 @@
     - id: ToyFigurineResearchDirector
     - id: ToyFigurineScientist
     # Security
-    - id: ToyFigurineHeadOfSecurity
-    - id: ToyFigurineWarden
+    #- id: ToyFigurineHeadOfSecurity # MAYDAY: security department removal
+    #- id: ToyFigurineWarden # MAYDAY: security department removal
     - id: ToyFigurineDetective
-    - id: ToyFigurineSecurity
+    #- id: ToyFigurineSecurity # MAYDAY: security department removal
     # Service
     - id: ToyFigurineHeadOfPersonnel
     - id: ToyFigurinePassenger

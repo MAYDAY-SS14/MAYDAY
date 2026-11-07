@@ -1,0 +1,67 @@
+- type: !PartialOnly cargoProduct
+  id: SecurityBiosuit
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: CrateVendingMachineRestockSecTech
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true
+
+- type: !PartialOnly cargoProduct
+  id: xxx
+  abstract: true

@@ -302,8 +302,10 @@
           prob: 0.05
         - id: EncryptionKeyEngineering
           prob: 0.05
-        - id: EncryptionKeySecurity
-          prob: 0.01
+        # MAYDAY: security department removal
+        #- id: EncryptionKeySecurity
+        #  prob: 0.01
+        # end MAYDAY
 
 - type: entity
   parent: CrateGenericSteel

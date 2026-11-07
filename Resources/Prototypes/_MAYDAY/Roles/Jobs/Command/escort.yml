@@ -1,0 +1,43 @@
+- type: job
+  id: Escort
+  name: job-name-escort
+  description: job-description-escort
+  playTimeTracker: JobEscort
+  startingGear: EscortGear
+  icon: "JobIconHeadOfSecurity"
+  supervisors: job-supervisors-captain
+  guides: [ Security ]
+  access:
+  - Command
+  - Armory
+  - Maintenance
+  - External
+  - Cryogenics
+  - GenpopEnter
+  - GenpopLeave
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: EscortGear
+  equipment:
+    id: EscortPDA
+    ears: ClothingHeadsetCommand
+    shoes: ClothingShoesBootsJackFilled
+    pocket1: WeaponDisabler
+    pocket2: Flash
+
+- type: chameleonOutfit
+  id: EscortChameleonOutfit
+  job: Escort
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatWarden
+    mask: ClothingMaskGasSecurity
+    outerClothing: ClothingOuterCoatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    neck: Dinkystar
+    belt: ClothingBeltSecurity
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsJack
