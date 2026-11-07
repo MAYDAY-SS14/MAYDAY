@@ -1,7 +1,7 @@
 - type: !PartialOnly guideEntry
   id: Command
   name: guide-entry-command
-  text: "/ServerInfo/_MAYDAY/Guidebook/Command.xml"
+  text: "/ServerInfo/_MAYDAY/Guidebook/Command/Command.xml"
 
 - type: !PartialOnly guideEntry
   id: Airlocks
