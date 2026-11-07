@@ -31,15 +31,7 @@ public sealed partial class MapMigrationSystem : EntitySystem
             return;
 
         // Verify that all of the entries map to valid entity prototypes.
-        // begin starcup (Delta-v): split migrations
-//        foreach (var node in mappings.Values)
-//        {
-//            var newId = ((ValueDataNode) node).Value;
-//            if (!string.IsNullOrEmpty(newId) && newId != "null")
-//                DebugTools.Assert(_protoMan.HasIndex<EntityPrototype>(newId), $"{newId} is not an entity prototype.");
-//        }
-
-        foreach (var mapping in mappings)
+        foreach (var mapping in mappings) // DeltaV - iterate each mapping file
         {
             foreach (var node in mapping.Children.Values)
             {
@@ -48,28 +40,12 @@ public sealed partial class MapMigrationSystem : EntitySystem
                     DebugTools.Assert(ProtoMan.HasIndex<EntityPrototype>(newId), $"{newId} is not an entity prototype.");
             }
         }
-        // end starcup
 #endif
     }
 
     private bool TryReadFile([NotNullWhen(true)] out List<MappingDataNode>? mappings) // DeltaV - changed to a list
     {
         mappings = null;
-
-        // begin starcup (Delta-v): split migrations
-//        var path = new ResPath(MigrationFile);
-//        if (!_resMan.TryContentFileRead(path, out var stream))
-//            return false;
-//
-//        using var reader = new StreamReader(stream, EncodingHelpers.UTF8);
-//        var documents = DataNodeParser.ParseYamlStream(reader).FirstOrDefault();
-//
-//        if (documents == null)
-//            return false;
-//
-//        mappings = (MappingDataNode) documents.Root;
-//        return true;
-        // end starcup
 
         // Begin DeltaV Changes - rewrote single path to finding files in a directory
         var files = _resMan.ContentFindFiles(MigrationDir)
