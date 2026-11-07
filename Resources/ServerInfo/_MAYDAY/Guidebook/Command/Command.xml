@@ -1,15 +1,15 @@
 <Document>
   # Command
-  The station is helmed, guided, and kept orderly through the work of the [color=#1b67a5]Command[/color] department. These are the ones who take charge during uncertain times, delegate responsibilities, and try their best to not get assassinated.
+  The station is guided through the work of the Command department. These are the ones who take charge during uncertain times, delegate responsibilities, and try their best to not get assassinated.
 
   ## Personnel
-  At the very top of [color=#1b67a5]Command[/color] is the [color=#1b67a5]Captain[/color], the highest authority on the station. The Captain can access everything, speak to everyone, and is the only person on the station authorized to begin the shift with a lethal weapon.
+  At the very top of Command is the [bold]Captain,[/bold] the highest authority on the station. The Captain can access everything, speak to everyone, and is the only person on the station authorized to begin the shift with a lethal weapon.
 
-  Directly beneath them is the [color=#9fed58]Head of Personnel[/color], who shares most of the Captain's privileges and acts as their second in command, assisting with bureaucratic work such as work assignments and access permissions that the Captain may be too busy to handle themselves.
+  Directly beneath them is the [bold]Head of Personnel[/bold], who shares most of the Captain's privileges and acts as their second in command, assisting with bureaucratic work such as work assignments and access permissions that the Captain may be too busy to handle themselves.
 
-  Then there are the heads of each department: The [color=#5b97bc]Chief Medical Officer[/color], the [color=#f39f27]Chief Engineer[/color], the [color=#c96dbf]Research Director[/color], and the [color=#b18644]Quartermaster[/color]. Trusted experts in their respective fields, they guide their respective departments through whatever chaos may arise during a shift.
+  Then there are the heads of each department: The [bold]Chief Medical Officer[/bold], the [bold]Chief Engineer[/bold], the [bold]Research Director[/bold], and the [bold]Quartermaster[/bold]. Trusted experts in their respective fields, they guide their respective departments through whatever chaos may arise during a shift.
 
-  While they do not have strict jurisdiction over any particular departments of the station, the [color=#1b67a5]Detective[/color] and [color=#1b67a5]Escort[/color] are two specialists that work directly underneath the Command department to protect against corporate espionage and act as authorities in their own right.
+  While they do not have strict jurisdiction over any particular departments of the station, the [bold]Detective[/bold] and [bold]Escort[/bold] are two specialists that work directly underneath the Command department to protect against corporate espionage and act as authorities in their own right.
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Captain"/>
   </Box>
@@ -27,26 +27,26 @@
   </Box>
 
   ## Leading from the Front
-  With few standardized protocols in the fringe space they operate in, matters of surveillance, protection, and conflict resolution are left to the sole discretion of the Command department. How they choose to exercise this authority and how much grace they give to the rest of the crew is entirely up to them.
+  With few standardized protocols in Fringe Space, matters of surveillance, protection, and conflict resolution are left to the sole discretion of the Command department. How they choose to exercise this authority and how much grace they give to the rest of the crew is entirely up to them.
 
-  Of course, operating in fringe space means fewer military resources compared to stations elsewhere. Although members of Command are provided standard self-defense tools, they will find themselves vulnerable to the station's enemies without the support of their crew.
+  Of course, operating in Fringe Space means fewer military resources compared to stations elsewhere. Although members of Command are provided standard self-defense tools, they will find themselves vulnerable to the station's enemies without the support of their crew.
 
   ## Special Equipment
   <Box>
     <GuideEntityEmbed Entity="LockerCaptain"/>
   </Box>
-  In the office of each member of Command (besides the Escort, who has no office) they will find a [color=#a4885c]locker[/color] containing all of the tools provided to them for their work. This also makes them an attractive target for thieves, especially lockers belonging to open positions in Command!
+  In the office of each member of Command (besides the Escort, who has no office) they will find a [bold]locker[/bold] containing all of the tools provided to them for their work. This also makes them an attractive target for thieves, especially lockers belonging to open positions in Command!
 
   <Box>
     <GuideEntityEmbed Entity="DoorRemoteCommand"/>
   </Box>
-  One of these tools is a special [color=#a4885c]remote[/color] capable of interacting with airlocks belonging to a particular department across short distances. They can [color=#a4885c]open and close[/color] them, spin the [color=#a4885c]bolts[/color] to lock them, or toggle [color=#a4885c]emergency access[/color].
+  One of these tools is a special [bold]remote[/bold] capable of interacting with airlocks belonging to a particular department across short distances. They can [bold]open and close[/bold] them, spin the [bold]bolts[/bold] to lock them, or toggle [bold]emergency access[/bold].
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadsetCommand"/>
     <GuideEntityEmbed Entity="EncryptionKeyStationMaster"/>
   </Box>
-  The Command [color=#a4885c]radio channel[/color] can also be a valuable resource for dealing with sensitive matters, as it's unlikely (though still possible!) to be accessed by traitors.
+  The Command [bold]radio channel[/bold] can also be a valuable resource for dealing with sensitive matters, as it's unlikely (though still possible!) to be accessed by traitors.
 
-  Additionally, the [color=#1b67a5]Captain[/color] and the [color=#9fed58]Head of Personnel[/color] possess copies of the station's [color=#a4885c]master encryption key[/color], letting them tune into every radio channel on the station.
+  Additionally, the [bold]Captain[/bold] and the [bold]Head of Personnel[/bold] possess copies of the station's [bold]master encryption key[/bold], letting them tune into every radio channel on the station.
 </Document>
