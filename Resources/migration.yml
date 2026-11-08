@@ -1172,3 +1172,16 @@ hydroponicsSoil: HydroponicsSoil
 hydroponicsTray: HydroponicsTray
 trayScanner: TRayScanner
 voicesensor: VoiceSensor
+
+# 2026-11-08 # TODO(MAYDAY): move these to a migration directory once that pr is merged
+SpawnPointAtmosphericTechnician: null
+SpawnPointLibrarian: null
+SpawnPointMedicalIntern: null
+SpawnPointMusician: null
+SpawnPointParamedic: null
+SpawnPointResearchAssistant: null
+SpawnPointSalvageSpecialist: null
+SpawnPointServiceWorker: null
+SpawnPointTechnicalAssistant: null
+SpawnPointTramDriver: null
+PlayerStationAi: null

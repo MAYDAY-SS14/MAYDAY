@@ -43,7 +43,7 @@ public sealed partial class IdCardConsoleComponent : Component
     public List<ProtoId<AccessLevelPrototype>> AccessLevels = new()
     {
         "Armory",
-        "Atmospherics",
+        //"Atmospherics", // MAYDAY: removed
         "Bar",
         "Brig",
         "Detective",
@@ -70,7 +70,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Quartermaster",
         "Research",
         "ResearchDirector",
-        "Salvage",
+        //"Salvage", // MAYDAY: removed
         "Security",
         "Service",
         "Theatre",

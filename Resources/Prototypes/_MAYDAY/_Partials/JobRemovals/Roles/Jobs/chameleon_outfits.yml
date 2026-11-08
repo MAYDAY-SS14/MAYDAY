@@ -1,0 +1,32 @@
+- type: !PartialOnly chameleonOutfit
+  id: LibrarianChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: ServiceWorkerChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: MusicianChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: TramDriverChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: AtmosphericTechnicianChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: TechnicalAssistantChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: MedicalInternChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: ResearchAssistantChameleonOutfit
+  abstract: true
+
