@@ -47,12 +47,6 @@
     eyes: ClothingEyesGlassesSunglasses
 
 - type: !PartialOnly chameleonOutfit
-  id: LawyerChameleonOutfit
-  job: Lawyer
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly chameleonOutfit
   id: MimeChameleonOutfit
   job: Mime
   equipment:
@@ -69,3 +63,24 @@
   job: Reporter
   equipment:
     eyes: ClothingEyesGlassesSunglasses
+
+# Removals
+- type: !PartialOnly chameleonOutfit
+  id: LawyerChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: SecurityOfficerChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: SecurityCadetChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: WardenChameleonOutfit
+  abstract: true
+
+- type: !PartialOnly chameleonOutfit
+  id: HeadOfSecurityChameleonOutfit
+  abstract: true
