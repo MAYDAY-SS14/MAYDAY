@@ -34,7 +34,7 @@
   abstract: true
 
 - type: !PartialOnly entity
-  id: VisitorWarden
+  id: VisitorWardenSpawner
   abstract: true
 
 - type: !PartialOnly entity

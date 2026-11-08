@@ -1,5 +1,0 @@
-- type: !PartialOnly job
-  id: ChiefEngineer
-  access:
-  - Armory
-  - !Remove Brig

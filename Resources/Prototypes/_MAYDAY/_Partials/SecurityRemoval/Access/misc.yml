@@ -1,8 +1,0 @@
-- type: !PartialOnly accessGroup
-  id: AllAccess
-  tags:
-  - !Remove HeadOfSecurity
-  - !Remove Security
-  - !Remove Brig
-  - !Remove GenpopEnter
-  - !Remove GenpopLeave

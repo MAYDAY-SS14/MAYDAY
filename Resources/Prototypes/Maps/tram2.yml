@@ -53,7 +53,7 @@
             #Warden: [ 1, 1 ] # MAYDAY: security department removal
             #SecurityOfficer: [ 2, 6 ] # MAYDAY: security department removal
             #SecurityCadet: [ 0, 2 ] # MAYDAY: security department removal
-            Lawyer: [ 1, 1 ]
+            #Lawyer: [ 1, 1 ] # MAYDAY: security department removal
             Detective: [ 0, 2 ]
             # Supply (6)
             SalvageSpecialist: [ 1, 3 ]

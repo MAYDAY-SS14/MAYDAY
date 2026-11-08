@@ -1,5 +1,0 @@
-- type: !PartialOnly job
-  id: ResearchDirector
-  access:
-  - Armory
-  - !Remove Brig

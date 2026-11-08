@@ -2,3 +2,8 @@
   id: CommandIconGroup
   icons:
   - JobIconDetective
+
+- type: !PartialOnly jobIconGroup
+  id: ServiceIconGroup
+  icons:
+  - !Remove JobIconDetective

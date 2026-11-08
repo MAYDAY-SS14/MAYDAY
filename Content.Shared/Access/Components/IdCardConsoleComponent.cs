@@ -64,7 +64,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Hydroponics",
         "Janitor",
         "Kitchen",
-        "Lawyer",
+        //"Lawyer", // MAYDAY: removed
         "Maintenance",
         "Medical",
         "Quartermaster",

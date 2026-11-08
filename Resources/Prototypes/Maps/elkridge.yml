@@ -55,7 +55,7 @@
             #SecurityOfficer: [ 2, 4 ] # MAYDAY: security department removal
             Detective: [ 0, 1 ]
             #SecurityCadet: [ 0, 2 ] # MAYDAY: security department removal
-            Lawyer: [ 0, 1 ]
+            #Lawyer: [ 0, 1 ] # # MAYDAY: security department removal
             # Supply (4)
             SalvageSpecialist: [ 1, 2 ]
             CargoTechnician: [ 1, 2 ]

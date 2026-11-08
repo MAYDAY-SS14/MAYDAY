@@ -1300,3 +1300,8 @@ ClothingOuterCoatDetectiveLoadout: ClothingOuterTrenchcoatDetective
 ClothingOuterCoatDetectiveLoadoutGrey: ClothingOuterTrenchcoatDetectiveGrey
 ClothingOuterVestDetective: null
 ClothingEyesGlassesCheapSunglasses: ClothingEyesGlassesSunglasses
+VendingMachineLawDrobe: null
+AirlockLawyerLocked: null
+AirlockLawyerGlassLocked: null
+DoorElectronicsLawyer: null
+SpawnPointLawyer: null

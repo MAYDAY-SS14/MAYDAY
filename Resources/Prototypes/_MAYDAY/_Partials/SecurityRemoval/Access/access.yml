@@ -1,0 +1,19 @@
+- type: !PartialOnly accessGroup
+  id: AllAccess
+  tags:
+  - !Remove HeadOfSecurity
+  - !Remove Security
+  - !Remove Brig
+  - !Remove GenpopEnter
+  - !Remove GenpopLeave
+  - !Remove Lawyer
+
+- type: !PartialOnly accessGroup
+  id: Command
+  tags:
+  - !Remove HeadOfSecurity
+
+- type: !PartialOnly accessGroup
+  id: Service
+  tags:
+  - !Remove Lawyer

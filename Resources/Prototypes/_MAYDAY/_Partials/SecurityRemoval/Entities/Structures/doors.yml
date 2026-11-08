@@ -26,6 +26,14 @@
   parent: AirlockCommand
   id: AirlockArmoryLocked
 
+- type: !PartialOnly entity
+  id: AirlockLawyerLocked
+  abstract: true
+
+- type: !PartialOnly entity
+  id: AirlockLawyerGlassLocked
+  abstract: true
+
 # Glass Airlocks
 - type: !PartialOnly entity
   id: AirlockSecurityGlass

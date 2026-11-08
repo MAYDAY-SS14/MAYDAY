@@ -8,3 +8,8 @@
 - type: !PartialOnly department
   id: Security
   abstract: true
+
+- type: !PartialOnly department
+  id: Service
+  roles:
+  - !Remove Lawyer

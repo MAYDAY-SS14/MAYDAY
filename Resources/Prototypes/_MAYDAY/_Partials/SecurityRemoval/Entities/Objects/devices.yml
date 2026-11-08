@@ -31,6 +31,10 @@
   abstract: true
 
 - type: !PartialOnly entity
+  id: DoorElectronicsLawyer
+  abstract: true
+
+- type: !PartialOnly entity
   id: DoorRemoteSecurity
   abstract: true
 

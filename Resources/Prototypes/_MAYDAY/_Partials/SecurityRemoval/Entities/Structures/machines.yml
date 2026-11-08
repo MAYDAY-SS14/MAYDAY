@@ -58,3 +58,7 @@
   - type: Lathe
     staticPacks:
     - !Remove ClothingSecurity
+
+- type: !PartialOnly entity
+  id: VendingMachineLawDrobe
+  abstract: true
