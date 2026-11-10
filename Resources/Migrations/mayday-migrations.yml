@@ -133,3 +133,7 @@ AirlockLawyerGlassLocked: null
 AirlockMaintLawyerLocked: null
 DoorElectronicsLawyer: null
 SpawnPointLawyer: null
+VisitorWarden: null
+VisitorHeadOfSecurity: null
+VisitorSecurityOfficer: null
+VisitorSecurityCadet: null
