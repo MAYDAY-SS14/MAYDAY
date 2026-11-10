@@ -1,1 +1,14 @@
 # Migrations specific to general content/changes introduced by the MAYDAY server.
+
+# 2026-11-08
+SpawnPointAtmosphericTechnician: null
+SpawnPointLibrarian: null
+SpawnPointMedicalIntern: null
+SpawnPointMusician: null
+SpawnPointParamedic: null
+SpawnPointResearchAssistant: null
+SpawnPointSalvageSpecialist: null
+SpawnPointServiceWorker: null
+SpawnPointTechnicalAssistant: null
+SpawnPointTramDriver: null
+PlayerStationAi: null
