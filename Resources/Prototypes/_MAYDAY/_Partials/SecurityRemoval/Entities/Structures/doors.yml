@@ -72,6 +72,10 @@
   id: AirlockMaintSecLocked
   abstract: true
 
+- type: !PartialOnly entity
+  id: AirlockMaintLawyerLocked
+  abstract: true
+
 # Windoors
 - type: !PartialOnly entity
   id: PlasmaWindoorSecurityLocked
