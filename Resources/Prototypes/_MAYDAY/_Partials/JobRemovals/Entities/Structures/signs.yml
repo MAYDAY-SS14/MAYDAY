@@ -1,0 +1,6 @@
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - SignLibrary
+    - SignDirectionalLibrary
+  abstract: true
