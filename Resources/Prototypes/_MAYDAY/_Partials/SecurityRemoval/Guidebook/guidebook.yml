@@ -22,3 +22,13 @@
   id: Forensics
   name: guide-entry-forensics
   text: "/ServerInfo/_MAYDAY/Guidebook/Command/Forensics.xml"
+
+- type: !PartialOnly guideEntry
+  id: CriminalRecords
+  name: guide-entry-criminal-records
+  text: "/ServerInfo/_MAYDAY/Guidebook/Command/CriminalRecords.xml"
+
+- type: !PartialOnly guideEntry
+  id: Glossary
+  name: guide-entry-glossary
+  text: "/ServerInfo/_MAYDAY/Guidebook/Glossary.xml"
