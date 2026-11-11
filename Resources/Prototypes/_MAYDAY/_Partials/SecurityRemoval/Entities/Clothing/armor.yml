@@ -1,5 +1,5 @@
 - type: !PartialOnly entity
-  id: !CreateVariants
+  id: !type:CreateVariants
     values:
     - ClothingOuterBioSecurity
     - ClothingHeadHatHoodBioSecurity
