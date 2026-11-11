@@ -77,9 +77,9 @@
     - id: BookLeafLoversSecret
     - id: BookMedicalReferenceBook
     - id: BookScientistsGuidebook
-    - id: BookSecurity
+    #- id: BookSecurity # MAYDAY: security department removal
     - id: BookSpaceEncyclopedia
-    - id: BookSpaceLaw
+    #- id: BookSpaceLaw # MAYDAY: security department removal
     - id: BookTheBookOfControl
 
 - type: entityTable
