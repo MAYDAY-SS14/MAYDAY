@@ -1,23 +1,10 @@
 - type: !PartialOnly quickPhrase
-  id: OraclePhrase
   abstract: true
-
-- type: !PartialOnly quickPhrase
-  id: SophiePhrase
-  abstract: true
-
-- type: !PartialOnly quickPhrase
-  id: GlimmerPhrase
-  abstract: true
-
-- type: !PartialOnly quickPhrase
-  id: PsionicsPhrase
-  abstract: true
-
-- type: !PartialOnly quickPhrase
-  id: LotophagolOilPhrase
-  abstract: true
-
-- type: !PartialOnly quickPhrase
-  id: MindbreakPhase
-  abstract: true
+  id: !type:CreateVariants
+    values:
+    - OraclePhrase
+    - SophiePhrase
+    - GlimmerPhrase
+    - PsionicsPhrase
+    - LotophagolOilPhrase
+    - MindbreakPhase
