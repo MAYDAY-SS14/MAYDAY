@@ -305,9 +305,7 @@ public abstract partial class AntagSelectionSystem : GameRuleSystem<AntagSelecti
     /// </summary>
     private bool PreAssignAntag(ICommonSession player, ref List<AntagRule> antags)
     {
-        // If this session cannot be an antag, then get the next session!
-        if (!TryGetValidAntagPreferences(player, out var prefs))
-            return false;
+        var prefs = new List<ProtoId<AntagPrototype>>(GetValidAntagPreferences(player)); // MAYDAY: replaced TryGetValidAntagPreferences
 
         for (var i = antags.Count - 1; i >= 0; i--)
         {
@@ -321,7 +319,7 @@ public abstract partial class AntagSelectionSystem : GameRuleSystem<AntagSelecti
                 continue;
             }
 
-            if (!PrefsContain(prefs, antag.Definition.PrefRoles))
+            if (antag.Definition.PrefRoles.Count > 0 && !PrefsContain(prefs, antag.Definition.PrefRoles)) // MAYDAY: added `PrefRoles` length check
                 continue;
 
             // We break it up like this to not log the server trying to make sessions without valid antag prefs into antags.
@@ -365,9 +363,7 @@ public abstract partial class AntagSelectionSystem : GameRuleSystem<AntagSelecti
     /// </summary>
     private bool AssignAntag(ICommonSession player, ref List<AntagRule> antags)
     {
-        // If this session cannot be an antag, then get the next session!
-        if (!TryGetValidAntagPreferences(player, out var prefs))
-            return false;
+        var prefs = new List<ProtoId<AntagPrototype>>(GetValidAntagPreferences(player)); // MAYDAY: replaced TryGetValidAntagPreferences
 
         for (var i = antags.Count - 1; i >= 0; i--)
         {
@@ -381,7 +377,7 @@ public abstract partial class AntagSelectionSystem : GameRuleSystem<AntagSelecti
                 continue;
             }
 
-            if (!PrefsContain(prefs, antag.Definition.PrefRoles))
+            if (antag.Definition.PrefRoles.Count > 0 && !PrefsContain(prefs, antag.Definition.PrefRoles)) // MAYDAY: added `PrefRoles` length check
                 continue;
 
             // We break it up like this to not log the server trying to make sessions without valid antag prefs into antags.
@@ -417,9 +413,7 @@ public abstract partial class AntagSelectionSystem : GameRuleSystem<AntagSelecti
     /// </summary>
     private bool AssignAntag(Entity<AntagSelectionComponent> gameRule, ICommonSession player, ref List<AntagCount> antags)
     {
-        // If this session cannot be an antag, then get the next session!
-        if (!TryGetValidAntagPreferences(player, out var prefs))
-            return false;
+        var prefs = new List<ProtoId<AntagPrototype>>(GetValidAntagPreferences(player)); // MAYDAY: replaced TryGetValidAntagPreferences
 
         for (var i = antags.Count - 1; i >= 0; i--)
         {
@@ -433,7 +427,7 @@ public abstract partial class AntagSelectionSystem : GameRuleSystem<AntagSelecti
                 continue;
             }
 
-            if (!PrefsContain(prefs, antag.Definition.PrefRoles))
+            if (antag.Definition.PrefRoles.Count > 0 && !PrefsContain(prefs, antag.Definition.PrefRoles)) // MAYDAY: added `PrefRoles` length check
                 continue;
 
             // We break it up like this to not log the server trying to make sessions without valid antag prefs into antags.
