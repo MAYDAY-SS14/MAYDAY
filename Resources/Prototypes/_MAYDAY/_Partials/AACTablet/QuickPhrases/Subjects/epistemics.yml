@@ -1,0 +1,10 @@
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: !type:CreateVariants
+    values:
+    - OraclePhrase
+    - SophiePhrase
+    - GlimmerPhrase
+    - PsionicsPhrase
+    - LotophagolOilPhrase
+    - MindbreakPhase

@@ -1,0 +1,6 @@
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: !type:CreateVariants
+    values:
+    - DamageRadiantPhrase
+    - DamageSoulPhrase

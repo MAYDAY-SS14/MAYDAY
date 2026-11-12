@@ -1,0 +1,30 @@
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: !type:CreateVariants
+    values:
+    # Command
+    - CentralCommandInternPhrase
+    # Science / "Epistemics"
+    - PsionicMantisPhrase
+    - ArchivistPhrase
+    # Cargo / "Logistics"
+    - CourierPhrase
+    - CargoAssistantPhrase
+    # Justice
+    - ChiefJusticePhrase
+    - ProsecutorPhrase
+    - ClerkPhrase
+    # Medical
+    - SurgeonPhrase
+    # Security
+    - HeadOfSecurityPhrase
+    - WardenPhrase
+    - SecurityOfficerPhrase
+    - SecurityCadetPhrase
+    - PrisonGuardPhrase
+    # Wildcard
+    - ZookeeperPhrase
+    - MartialArtistPhease
+    - PrisonerPhrase
+    - GladiatorPhrase
+    - CorpsmanPhrase

@@ -1,0 +1,48 @@
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: !type:CreateVariants
+    values:
+    # Command
+    - LocationConferenceRoomPhrase
+    # Science / "Epistemics"
+    - LocationMantisPhrase
+    # Justice
+    - LocationProsecutorPhrase
+    - LocationChiefJusticePhrase
+    - LocationClerkPhrase
+    # Cargo / "Logistics"
+    - LocationMailPhrase
+    # Security
+    - LocationSecurityPhrase
+    - LocationBrigPhrase
+    - LocationWardenPhrase
+    - LocationHosPhrase
+    - LocationPermaPhrase
+    - LocationSecCheckpointPhrase
+    - LocationCorpsmanPhrase
+    # Service
+    - LocationJaniOfficePhrase
+    - LocationJaniClosetPhrase
+    # Civilian
+    - LocationParkPhrase
+    - LocationCamerasPhrase
+
+# Science / "Epistemics"
+
+- type: !PartialOnly quickPhrase
+  id: LocationEpistemicsPhrase
+  text: station-beacon-science
+
+- type: !PartialOnly quickPhrase
+  id: LocationMystagoguePhrase
+  text: station-beacon-research-director
+
+# Cargo / "Logistics"
+
+- type: !PartialOnly quickPhrase
+  id: LocationLogisticsPhrase
+  text: station-beacon-cargo
+
+- type: !PartialOnly quickPhrase
+  id: LocationLoPhrase
+  text: station-beacon-qm

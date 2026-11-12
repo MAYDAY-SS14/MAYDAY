@@ -1,0 +1,15 @@
+- type: !PartialOnly quickPhrase
+  abstract: true
+  id: !type:CreateVariants
+    values:
+    - SpeciesHarpyPhrase
+    - SpeciesOniPhrase
+    - SpeciesFeroxiPhrase
+    - SpeciesKitsunePhrase
+    - SpeciesKThavenPhrase
+    - SpeciesChitnidePhrase
+    - SpeciesAvaliPhrase
+    - SpeciesOviniaPhrase
+    - SpeciesAllulaloPhrase
+    - SpeciesFelinidPhrase
+    - SpeciesRodentiaPhrase
