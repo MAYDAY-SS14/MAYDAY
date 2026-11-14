@@ -1,0 +1,45 @@
+# Jobs
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - AtmosphericTechnician
+    - Librarian
+    - MedicalIntern
+    - Musician
+    - Paramedic
+    - ResearchAssistant
+    - SalvageSpecialist
+    - ServiceWorker
+    - TechnicalAssistant
+    - TramDriver
+  overrideConsoleVisibility: false
+
+# Departments
+- type: !PartialOnly department
+  id: Specific
+  abstract: true
+
+# Entities
+## Spawners
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - SpawnPointAtmosphericTechnician
+    - SpawnPointLibrarian
+    - SpawnPointMedicalIntern
+    - SpawnPointMusician
+    - SpawnPointParamedic
+    - SpawnPointResearchAssistant
+    - SpawnPointSalvageSpecialist
+    - SpawnPointServiceWorker
+    - SpawnPointTechnicalAssistant
+    - SpawnPointTramDriver
+  abstract: true
+
+## Structures
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - SignLibrary
+    - SignDirectionalLibrary
+  abstract: true

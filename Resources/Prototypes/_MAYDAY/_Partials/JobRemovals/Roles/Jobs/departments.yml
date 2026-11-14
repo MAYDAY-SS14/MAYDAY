@@ -32,7 +32,3 @@
   id: Silicon
   roles:
   - !Remove StationAi
-
-- type: department
-  id: Specific
-  abstract: true

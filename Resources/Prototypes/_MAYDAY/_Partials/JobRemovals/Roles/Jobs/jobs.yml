@@ -1,57 +1,9 @@
-# Security Job Removals
 - type: !PartialOnly job
-  id: AtmosphericTechnician
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: Librarian
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: MedicalIntern
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: Musician
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: Paramedic
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: ResearchAssistant
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: SalvageSpecialist
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: ServiceWorker
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: TechnicalAssistant
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: TramDriver
-  overrideConsoleVisibility: false
-
-# Command Job Adjustments
-- type: !PartialOnly job
-  id: ChiefEngineer
+  id: !type:CreateVariants
+    values:
+    - ChiefEngineer
+    - HeadOfPersonnel
+    - Quartermaster
   access:
   - !Remove Atmospherics
-
-- type: !PartialOnly job
-  id: HeadOfPersonnel
-  access:
-  - !Remove Atmospherics
-  - !Remove Salvage
-
-- type: !PartialOnly job
-  id: Quartermaster
-  access:
   - !Remove Salvage
