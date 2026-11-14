@@ -1,1 +1,32 @@
 # Migrations specific to general content/changes introduced by the MAYDAY server.
+
+# 2026-11-08 (job removals)
+SpawnPointAtmosphericTechnician: null
+SpawnPointLibrarian: null
+SpawnPointMedicalIntern: null
+SpawnPointMusician: null
+SpawnPointParamedic: null
+SpawnPointResearchAssistant: null
+SpawnPointSalvageSpecialist: null
+SpawnPointServiceWorker: null
+SpawnPointTechnicalAssistant: null
+SpawnPointTramDriver: null
+PlayerStationAi: null
+AirlockAtmosphericsLocked: null
+AirlockExternalGlassAtmosphericsLocked: null
+AirlockMaintAtmoLocked: null
+AirlockSalvage: null
+AirlockSalvageLocked: null
+AirlockCargoSalvageLocked: null
+AirlockMiningLocked: null
+HolopadAiCore: null
+HolopadAiMain: null
+HolopadAiBackupPower: null
+HolopadAiEntrance: null
+HolopadAiChute: null
+HolopadCargoSalvageBay: null
+HolopadMedicalParamed: null
+HolopadServiceLibrary: null
+HolopadServiceZookeeper: null
+HolopadServiceBoxer: null
+HolopadServiceMusician: null

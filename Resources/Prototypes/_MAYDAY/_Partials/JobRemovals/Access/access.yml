@@ -1,0 +1,15 @@
+- type: !PartialOnly accessGroup
+  id: AllAccess
+  tags:
+  - !Remove Atmospherics
+  - !Remove Salvage
+
+- type: !PartialOnly accessGroup
+  id: Cargo
+  tags:
+  - !Remove Salvage
+
+- type: !PartialOnly accessGroup
+  id: Engineering
+  tags:
+  - !Remove Atmospherics
