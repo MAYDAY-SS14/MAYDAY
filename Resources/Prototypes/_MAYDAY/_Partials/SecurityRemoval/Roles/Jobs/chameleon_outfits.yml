@@ -1,0 +1,16 @@
+- type: !PartialOnly chameleonOutfit
+  id: !type:CreateVariants
+    values:
+    - CargoTechnicianChameleonOutfit
+    - SalvageSpecialistChameleonOutfit
+    - PassengerChameleonOutfit
+    - PrisonerChameleonOutfit
+    - BotanistChameleonOutfit
+    - ChefChameleonOutfit
+    - ClownChameleonOutfit
+    - JanitorChameleonOutfit
+    - MimeChameleonOutfit
+    - ServiceWorkerChameleonOutfit
+    - ReporterChameleonOutfit
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses

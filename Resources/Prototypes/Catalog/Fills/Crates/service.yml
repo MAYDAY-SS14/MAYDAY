@@ -283,13 +283,13 @@
         - id: BookLeafLoversSecret
         - id: BookEngineersHandbook
         - id: BookScientistsGuidebook
-        - id: BookSecurity
+        #- id: BookSecurity # MAYDAY: security department removal
         - id: BookHowToKeepStationClean
         - id: BookHowToRockAndStone
         - id: BookMedicalReferenceBook
         - id: BookHowToSurvive
         - id: BookChemicalCompendium
-        - id: BookSpaceLaw
+        #- id: BookSpaceLaw # MAYDAY: security department removal
 
 - type: entity
   parent: CrateFreezer

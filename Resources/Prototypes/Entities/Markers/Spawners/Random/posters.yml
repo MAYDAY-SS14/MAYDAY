@@ -109,7 +109,7 @@
     - id: PosterLegitDickGumshue
     - id: PosterLegitThereIsNoGasGiant
     - id: PosterLegitJustAWeekAway
-    - id: PosterLegitSecWatch
+    #- id: PosterLegitSecWatch # MAYDAY: security department removal
     - id: PosterLegitVacation
     - id: PosterLegitRenault
     - id: PosterLegitNTTGC

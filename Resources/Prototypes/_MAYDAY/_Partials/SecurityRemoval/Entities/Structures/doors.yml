@@ -1,0 +1,22 @@
+- type: !PartialOnly entity
+  parent: AirlockCommand
+  id: AirlockDetectiveLocked
+
+- type: !PartialOnly entity
+  parent: AirlockCommand
+  id: AirlockArmoryLocked
+
+# Glass Airlocks
+
+- type: !PartialOnly entity
+  parent: AirlockCommandGlass
+  id: AirlockDetectiveGlassLocked
+
+- type: !PartialOnly entity
+  parent: AirlockCommand
+  id: AirlockArmoryGlassLocked
+
+# Windoors
+- type: !PartialOnly entity
+  parent: WindoorCommandLocked
+  id: WindoorDetectiveLocked

@@ -1,0 +1,34 @@
+<Document>
+  ## Armory
+  The armory is available to [color=yellow]all members of Command,[/color] and can be made accessible to the rest of the crew at their discretion. The exact contents of the armory will vary depending on the station, but some standard gear you can expect to find in every armory includes:
+
+  <Box>
+    <GuideEntityEmbed Entity="Stunbaton"/>
+    <GuideEntityEmbed Entity="WeaponDisabler"/>
+  </Box>
+  The [bold]stun baton[/bold] and the [bold]disabler[/bold] are the crew's two main methods of non-lethal subdual. Both of these weapons deal stamina damage, which will slow a target and knock them down after enough hits.
+
+  <Box>
+    <GuideEntityEmbed Entity="GrenadeFlashBang" Caption="flashbang"/>
+    <GuideEntityEmbed Entity="GrenadeStinger" Caption="stinger grenade"/>
+    <GuideEntityEmbed Entity="TearGasGrenade" Caption="tear gas grenade"/>
+  </Box>
+  [bold]Flashbang, stinger,[/bold] and [bold]tear gas grenades[/bold] are all useful for restricting movement across a wider area. They accomplish this in different ways:
+  - Flashbangs cause a brief disorienting flash in a large space
+  - Stinger grenades produce a volley of rubber pellets that deal heavy stamina damage (and some brute damage!)
+  - Tear gas blinds and slows anyone caught in the cloud
+
+  <Box>
+    <GuideEntityEmbed Entity="Handcuffs"/>
+    <GuideEntityEmbed Entity="TrackingImplanter"/>
+  </Box>
+  After subdual, using [bold]handcuffs[/bold] on a target will render them unable to use their hands. They can still break out of these cuffs if uninterrupted, though, so keep an eye on them!
+
+  To help with keeping track of dangerous individuals, [bold]tracking implants[/bold] can be administered to render them constantly visible to the station's crew monitors.
+
+  <Box>
+    <GuideEntityEmbed Entity="WeaponPistolMk58"/>
+    <GuideEntityEmbed Entity="MagazinePistol"/>
+  </Box>
+  Finally, the [bold]mk 58 pistol[/bold] offers solid killing power for situations in need of lethal force.
+</Document>

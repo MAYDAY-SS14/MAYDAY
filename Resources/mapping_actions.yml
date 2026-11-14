@@ -168,9 +168,11 @@
 - entity: AirlockServiceLocked
   assignments:
   - 6: 2
-- entity: AirlockSecurityLocked
-  assignments:
-  - 6: 3
+# MAYDAY: security department removal
+#- entity: AirlockSecurityLocked
+#  assignments:
+#  - 6: 3
+# end MAYDAY
 - entity: AirlockCommand
   assignments:
   - 6: 4

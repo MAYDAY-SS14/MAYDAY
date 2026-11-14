@@ -1,0 +1,47 @@
+# Shared
+- type: loadoutGroup
+  id: CommandEyes
+  name: loadout-group-command-eyes
+  loadouts:
+  - CommandHud
+  - CommandGlasses
+
+# Escort
+
+- type: loadoutGroup
+  id: EscortHead
+  name: loadout-group-escort-head
+  minLimit: 0
+  loadouts:
+  - EscortHead
+  - EscortBeret
+
+- type: loadoutGroup
+  id: EscortJumpsuit
+  name: loadout-group-escort-jumpsuit
+  loadouts:
+  - EscortJumpsuit
+  - EscortJumpskirt
+
+- type: loadoutGroup
+  id: EscortOuterClothing
+  name: loadout-group-escort-outerclothing
+  loadouts:
+  - EscortJacket
+  - EscortCoat
+  - EscortTrenchcoat
+
+- type: loadoutGroup
+  id: EscortBackpack
+  name: loadout-group-escort-backpack
+  loadouts:
+  - EscortBackpack
+  - EscortSatchel
+  - EscortDuffel
+
+- type: loadoutGroup
+  id: EscortBelt
+  name: loadout-group-escort-belt
+  loadouts:
+  - EscortBelt
+  - EscortWebbing

@@ -17,6 +17,7 @@
 
 - type: guideEntry
   id: SpaceLaw
+  abstract: true # MAYDAY: security department removal
   name: guide-entry-rules-space-law
   text: "/ServerInfo/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
   children:
@@ -24,6 +25,7 @@
 
 - type: guideEntry
   id: SpaceLawCrimeList
+  abstract: true # MAYDAY: security department removal
   name: guide-entry-rules-sl-crime-list
   text: "/ServerInfo/Guidebook/ServerRules/SpaceLaw/SLCrimeList.xml"
 

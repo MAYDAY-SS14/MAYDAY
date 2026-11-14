@@ -1,0 +1,22 @@
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitEscort
+  name: escort's uniform
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuits/Security/warden.rsi
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpsuits/Color/color.rsi
+      - state: overlay-inhand-left
+      right:
+      - state: inhand-right
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpsuits/Color/color.rsi
+      - state: overlay-inhand-right
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuits/Security/warden.rsi

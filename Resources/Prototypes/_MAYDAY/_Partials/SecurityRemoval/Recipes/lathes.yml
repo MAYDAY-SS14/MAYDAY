@@ -1,0 +1,9 @@
+- type: !PartialOnly latheRecipePack
+  id: ClothingSecurity
+  abstract: true
+
+- type: latheRecipePack
+  id: ClothingService
+  recipes:
+  - !Remove ClothingUniformJumpsuitLawyerBlack
+  - !Remove ClothingUniformJumpskirtLawyerBlack

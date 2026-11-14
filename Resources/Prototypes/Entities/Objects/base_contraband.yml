@@ -90,7 +90,7 @@
   abstract: true
   components:
   - type: Contraband
-    allowedDepartments: [ Security ]
+    allowedDepartments: [ Command ] # MAYDAY: security department removal, changed to command as a failsafe
 
 - type: entity
   id: BaseEngineeringContraband
@@ -155,7 +155,7 @@
   abstract: true
   components:
   - type: Contraband
-    allowedDepartments: [ Security, Command ]
+    allowedDepartments: [ Command ] # MAYDAY: security department removal
 
 - type: entity
   id: BaseSecurityScienceCommandContraband
@@ -163,7 +163,7 @@
   abstract: true
   components:
   - type: Contraband
-    allowedDepartments: [ Security, Science, Command ]
+    allowedDepartments: [ Science, Command ] # MAYDAY: security department removal
 
 - type: entity
   id: BaseSecurityEngineeringContraband
@@ -171,7 +171,7 @@
   abstract: true
   components:
   - type: Contraband
-    allowedDepartments: [ Security, Engineering ]
+    allowedDepartments: [ Engineering ] # MAYDAY: security department removal
 
 - type: entity
   id: BaseSiliconScienceContraband
@@ -187,7 +187,7 @@
   abstract: true
   components:
   - type: Contraband
-    allowedDepartments: [ Security, Cargo ]
+    allowedDepartments: [ Cargo ] # MAYDAY: security department removal
 
 - type: entity
   id: BaseMedicalScienceContraband
@@ -221,7 +221,7 @@
   abstract: true
   components:
   - type: Contraband
-    allowedDepartments: [ Security ]
+    #allowedDepartments: [ Security ] # MAYDAY: security department removal
     allowedJobs: [ Bartender ]
 
 - type: entity
@@ -230,7 +230,7 @@
   abstract: true
   components:
   - type: Contraband
-    allowedDepartments: [ Security ]
+    #allowedDepartments: [ Security ] # MAYDAY: security department removal
     allowedJobs: [ Lawyer ]
 
 - type: entity
