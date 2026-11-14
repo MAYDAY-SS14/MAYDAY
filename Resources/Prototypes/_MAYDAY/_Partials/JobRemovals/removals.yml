@@ -20,6 +20,19 @@
   abstract: true
 
 # Entities
+## Airlocks
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - AirlockAtmosphericsLocked
+    - AirlockExternalGlassAtmosphericsLocked
+    - AirlockMaintAtmoLocked
+    - AirlockSalvage
+    - AirlockSalvageLocked
+    - AirlockCargoSalvageLocked
+    - AirlockMiningLocked
+  abstract: true
+
 ## Spawners
 - type: !PartialOnly entity
   id: !type:CreateVariants
@@ -36,10 +49,27 @@
     - SpawnPointTramDriver
   abstract: true
 
-## Structures
+## Decorations
 - type: !PartialOnly entity
   id: !type:CreateVariants
     values:
     - SignLibrary
     - SignDirectionalLibrary
+  abstract: true
+
+## Holopads
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - HolopadAiCore
+    - HolopadAiMain
+    - HolopadAiBackupPower
+    - HolopadAiEntrance
+    - HolopadAiChute
+    - HolopadCargoSalvageBay
+    - HolopadMedicalParamed
+    - HolopadServiceLibrary
+    - HolopadServiceZookeeper
+    - HolopadServiceBoxer
+    - HolopadServiceMusician
   abstract: true
