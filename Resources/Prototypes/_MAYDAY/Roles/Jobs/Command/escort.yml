@@ -6,7 +6,7 @@
   startingGear: EscortGear
   icon: "JobIconHeadOfSecurity"
   supervisors: job-supervisors-captain
-  guides: [ Security ]
+  guides: [ Safety ]
   access:
   - Command
   - Armory
