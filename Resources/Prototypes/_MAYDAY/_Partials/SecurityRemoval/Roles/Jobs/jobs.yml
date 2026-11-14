@@ -1,60 +1,19 @@
-# Security Job Removals
 - type: !PartialOnly job
-  id: SecurityCadet
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: SecurityOfficer
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: HeadOfSecurity
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: Warden
-  overrideConsoleVisibility: false
-
-- type: !PartialOnly job
-  id: Lawyer
-  overrideConsoleVisibility: false
-
-# Command Job Adjustments
-- type: !PartialOnly job
-  id: ResearchDirector
-  access:
-  - Armory
-  - !Remove Brig
-
-- type: !PartialOnly job
-  id: ChiefMedicalOfficer
-  access:
-  - Armory
-  - !Remove Brig
-
-- type: !PartialOnly job
-  id: ChiefEngineer
-  access:
-  - Armory
-  - !Remove Brig
-
-- type: !PartialOnly job
-  id: HeadOfPersonnel
-  access:
-  - Armory
-  - !Remove Brig
-  - !Remove Security
-  - !Remove GenpopEnter
-  - !Remove GenpopLeave
-
-- type: !PartialOnly job
-  id: Detective
-  supervisors: job-supervisors-captain
+  id: !type:CreateVariants
+    values:
+    - ResearchDirector
+    - ChiefMedicalOfficer
+    - ChiefEngineer
+    - Quartermaster
+    - HeadOfPersonnel
+    - Detective
   access:
   - Armory
   - Command
   - !Remove Brig
   - !Remove Security
+  - !Remove GenpopEnter
+  - !Remove GenpopLeave
 
 - type: !PartialOnly startingGear
   id: DetectiveGear
@@ -62,9 +21,3 @@
     eyes: ClothingEyesGlassesCommand
     ears: ClothingHeadsetCommand
     belt: ClothingBeltStorageWaistbag
-
-- type: !PartialOnly job
-  id: Quartermaster
-  access:
-  - Armory
-  - !Remove Brig

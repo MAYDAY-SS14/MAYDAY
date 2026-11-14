@@ -1,0 +1,232 @@
+# Cargo Products
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - SecurityBiosuit
+    - CrateVendingMachineRestockSecTech
+  abstract: true
+
+# Jobs
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - SecurityCadet
+    - SecurityOfficer
+    - HeadOfSecurity
+    - Warden
+    - Lawyer
+  overrideConsoleVisibility: false
+
+
+
+# Entities
+## Armor
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ClothingOuterBioSecurity
+    - ClothingHeadHatHoodBioSecurity
+    - ClothingOuterHardsuitSecurity
+    - ClothingOuterHardsuitWarden
+    - ClothingOuterHardsuitMedical
+    - ClothingOuterHardsuitRd
+    - ClothingOuterCoatDetective
+    - ClothingOuterCoatDetectiveLoadout
+    - ClothingOuterCoatDetectiveLoadoutGrey
+    - ClothingOuterVestDetective
+  abstract: true
+
+## Clothes
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ClothingUniformJumpsuitSec
+    - ClothingUniformJumpskirtSec
+    - ClothingHeadHatBeretSecurity
+    - ClothingHeadHatSecsoft
+    - ClothingHeadHatSecsoftFlipped
+    - ClothingUniformJumpsuitSecGrey
+    - ClothingUniformJumpskirtSecGrey
+    - ClothingHeadsetSecurity
+    - ClothingHeadsetAltSecurity
+    - ClothingHeadsetBrigmedic
+    - ClothingOuterWinterSec
+    - ClothingShoesBootsWinterSec
+    - ClothingEyesGlassesCheapSunglasses
+  abstract: true
+
+## Devices
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - HoSPDA
+    - WardenPDA
+    - SecurityPDA
+    - SecurityCadetPDA
+    - DoorElectronicsHeadOfSecurity
+    - DoorElectronicsSecurity
+    - DoorElectronicsSecurityLawyer
+    - DoorElectronicsBrig
+    - DoorElectronicsLawyer
+    - DoorRemoteSecurity
+    - EncryptionKeySecurity
+    - WeaponEnergyTurretStationControlPanelElectronicsBase
+    - WeaponEnergyTurretSecurityMachineCircuitboard
+  abstract: true
+
+## Toys
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ToyFigurineHeadOfSecurity
+    - ToyFigurineWarden
+    - ToyFigurineSecurity
+    - PlushieLizardJobHeadofsecurity
+    - PlushieLizardJobWarden
+    - PlushieLizardJobSecurityofficer
+    - PlushieLizardJobSecuritycadet
+  abstract: true
+
+## Misc
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - HoSIDCard
+    - WardenIDCard
+    - SecurityIDCard
+    - SecurityCadetIDCard
+    - VendingMachineRestockSecTech
+    - BookSecurity
+    - BookSpaceLaw
+    - BedsheetHOS
+    - MobRandomSecurityCorpse
+  abstract: true
+
+## Mobs
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - RandomSecurityCorpseSpawner
+    - RandomHumanoidVisitorHOS
+    - RandomHumanoidVisitorSecurityCadet
+    - RandomHumanoidVisitorSecurityOfficer
+    - RandomHumanoidVisitorWarden
+  abstract: true
+
+## Spawners
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - SpawnPointHeadOfSecurity
+    - SpawnPointWarden
+    - SpawnPointSecurityOfficer
+    - SpawnPointSecurityCadet
+    - SecurityVisitorSpawner
+    - VisitorSecurityCadetSpawner
+    - VisitorSecurityOfficerSpawner
+    - VisitorWardenSpawner
+    - VisitorHOSSpawner
+  abstract: true
+
+## Decorations
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - SignSecurity
+    - BannerSecurity
+    - PosterLegitSecWatch
+    - SignGenpop
+    - SignDirectionalBrig
+    - SignDirectionalSec
+  abstract: true
+
+## Airlocks
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - AirlockSecurity
+    - AirlockHeadOfSecurityLocked
+    - AirlockSecurityLocked
+    - AirlockBrigLocked
+    - AirlockSecurityLawyerLocked
+    - AirlockLawyerLocked
+    - AirlockLawyerGlassLocked
+    - AirlockSecurityGlass
+    - AirlockHeadOfSecurityGlassLocked
+    - AirlockSecurityGlassLocked
+    - AirlockBrigGlassLocked
+    - AirlockSecurityLawyerGlassLocked
+    - AirlockMaintHeadOfSecurityLocked
+    - AirlockMaintSecLocked
+    - AirlockMaintLawyerLocked
+    - PlasmaWindoorSecurityLocked
+    - WindoorSecurityLocked
+    - WindoorBrigLocked
+    - WindoorSecurityLawyerLocked
+  abstract: true
+
+## Holopads
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - HolopadSecurityFront
+    - HolopadSecurityBrig
+    - HolopadSecurityWarden
+    - HolopadSecurityBreakroom
+    - HolopadSecurityPerma
+    - HolopadSecurityLockerRoom
+    - HolopadSecurityBrigMed
+    - HolopadSecurityEvacCheckpoint
+    - HolopadSecurityArrivalsCheckpoint
+  abstract: true
+
+## Machines
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - VendingMachineSecDrobe
+    - VendingMachineSec
+    - SurveillanceCameraSecurity
+    - IntercomSecurity
+    - LockableButtonHeadOfSecurity
+    - LockableButtonSecurity
+    - SurveillanceCameraRouterSecurity
+    - WeaponEnergyTurretSecurity
+    - WeaponEnergyTurretSecurityControlPanel
+    - TelecomServerFilledSecurity
+    - StationTeleporterSecurity
+    - VendingMachineLawDrobe
+  abstract: true
+
+## Station Beacons
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - DefaultStationBeaconSecurityCheckpoint
+    - DefaultStationBeaconPermaBrig
+    - DefaultStationBeaconHOSRoom
+    - DefaultStationBeaconWardensOffice
+    - DefaultStationBeaconBrigMed
+    - DefaultStationBeaconBrig
+    - DefaultStationBeaconSecurity
+  abstract: true
+
+## Storage
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - LockerWarden
+    - LockerWardenFilled
+    - LockerWardenFilledHardsuit
+    - LockerSecurity
+    - LockerSecurityFilled
+    - ClosetL3SecurityFilled
+    - ClosetL3Security
+    - LockerHeadOfSecurity
+    - LockerHeadOfSecurityFilled
+    - LockerHeadOfSecurityFilledHardsuit
+    - WardrobeSecurity
+    - WardrobeSecurityFilled
+    - LockerChiefMedicalOfficerFilledHardsuit
+    - LockerResearchDirectorFilledHardsuit
+  abstract: true

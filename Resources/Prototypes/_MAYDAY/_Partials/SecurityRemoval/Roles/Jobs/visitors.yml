@@ -1,25 +1,11 @@
 - type: !PartialOnly startingGear
-  id: VisitorLawyerAltA
-  equipment:
-    ears: ClothingHeadsetCommand
-
-- type: !PartialOnly startingGear
-  id: VisitorLawyerAltB
-  equipment:
-    ears: ClothingHeadsetCommand
-
-- type: !PartialOnly startingGear
-  id: VisitorLawyerAltC
-  equipment:
-    ears: ClothingHeadsetCommand
-
-- type: !PartialOnly startingGear
-  id: VisitorLawyerAltD
-  equipment:
-    ears: ClothingHeadsetCommand
-
-- type: !PartialOnly startingGear
-  id: VisitorLawyerAltE
+  id: !type:CreateVariants
+    values:
+    - VisitorLawyerAltA
+    - VisitorLawyerAltB
+    - VisitorLawyerAltC
+    - VisitorLawyerAltD
+    - VisitorLawyerAltE
   equipment:
     ears: ClothingHeadsetCommand
 
@@ -36,91 +22,25 @@
     outerClothing: ClothingOuterTrenchcoatDetectiveGrey
 
 - type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltA
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltB
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltC
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltD
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltE
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltF
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltG
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltH
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianFancyAltI
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianRelaxedAltA
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianRelaxedAltB
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianRelaxedAltC
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianRelaxedAltD
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianRelaxedAltE
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianRelaxedAltF
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMusicianMariachi
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMime
-  equipment:
-    eyes: ClothingEyesGlassesSunglasses
-
-- type: !PartialOnly startingGear
-  id: VisitorMimeAlt
+  id: !type:CreateVariants
+    values:
+    - VisitorMusicianFancyAltA
+    - VisitorMusicianFancyAltB
+    - VisitorMusicianFancyAltC
+    - VisitorMusicianFancyAltD
+    - VisitorMusicianFancyAltE
+    - VisitorMusicianFancyAltF
+    - VisitorMusicianFancyAltG
+    - VisitorMusicianFancyAltH
+    - VisitorMusicianFancyAltI
+    - VisitorMusicianRelaxedAltA
+    - VisitorMusicianRelaxedAltB
+    - VisitorMusicianRelaxedAltC
+    - VisitorMusicianRelaxedAltD
+    - VisitorMusicianRelaxedAltE
+    - VisitorMusicianRelaxedAltF
+    - VisitorMusicianMariachi
+    - VisitorMime
+    - VisitorMimeAlt
   equipment:
     eyes: ClothingEyesGlassesSunglasses
