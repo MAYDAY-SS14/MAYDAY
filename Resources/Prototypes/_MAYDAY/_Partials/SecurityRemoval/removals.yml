@@ -1,5 +1,5 @@
 # Cargo Products
-- type: !PartialOnly entity
+- type: !PartialOnly cargoProduct
   id: !type:CreateVariants
     values:
     - SecurityBiosuit
