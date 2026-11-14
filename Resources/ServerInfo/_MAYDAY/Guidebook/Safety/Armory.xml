@@ -6,7 +6,7 @@
     <GuideEntityEmbed Entity="Stunbaton"/>
     <GuideEntityEmbed Entity="WeaponDisabler"/>
   </Box>
-  The [bold]stun baton[/bold] and the [bold]disabler[/bold] are the crew's two main methods of non-lethal subdual. Both of these weapons deal stamina damage, which will slow a target down and knock them down after enough hits.
+  The [bold]stun baton[/bold] and the [bold]disabler[/bold] are the crew's two main methods of non-lethal subdual. Both of these weapons deal stamina damage, which will slow a target and knock them down after enough hits.
 
   <Box>
     <GuideEntityEmbed Entity="GrenadeFlashBang" Caption="flashbang"/>
@@ -24,7 +24,7 @@
   </Box>
   After subdual, using [bold]handcuffs[/bold] on a target will render them unable to use their hands. They can still break out of these cuffs if uninterrupted, though, so keep an eye on them!
 
-  To help with this, [bold]tracking implants[/bold] can be administered to render them constantly visible to the station's crew monitors.
+  To help with keeping track of dangerous individuals, [bold]tracking implants[/bold] can be administered to render them constantly visible to the station's crew monitors.
 
   <Box>
     <GuideEntityEmbed Entity="WeaponPistolMk58"/>
