@@ -17,8 +17,6 @@
     - Lawyer
   overrideConsoleVisibility: false
 
-
-
 # Entities
 ## Armor
 - type: !PartialOnly entity
