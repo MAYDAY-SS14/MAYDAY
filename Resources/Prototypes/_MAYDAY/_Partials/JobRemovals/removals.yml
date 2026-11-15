@@ -55,6 +55,8 @@
     values:
     - SignLibrary
     - SignDirectionalLibrary
+    - SignSalvage
+    - SignAi
   abstract: true
 
 ## Holopads
@@ -72,4 +74,55 @@
     - HolopadServiceZookeeper
     - HolopadServiceBoxer
     - HolopadServiceMusician
+  abstract: true
+
+## Machines
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - VendingMachineAtmosDrobe
+    - OreProcessor
+    - ComputerSalvageExpedition
+    - ComputerSalvageJobBoard
+    - VendingMachineSalvage
+    - SalvageMagnet
+    - WeaponEnergyTurretAiControlPanel
+    - WeaponEnergyTurretAi
+  abstract: true
+
+## Devices
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - WeaponEnergyTurretAIMachineCircuitboard
+    - WeaponEnergyTurretAIControlPanelElectronics
+  abstract: true
+
+## Storage
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - LockerAtmosphericsFilled
+    - LockerAtmosphericsFilledHardsuit
+    - LockerSalvageSpecialistFilled
+    - LockerSalvageSpecialistFilledHardsuit
+    - LockerSalvageSpecialistFilledHardsuitCargoAccess
+    - LockerParamedic
+    - LockerParamedicFilled
+    - SuitStorageSalv
+    - WardrobeSalvage
+    - WardrobeSalvageFilled
+    - OreBox
+  abstract: true
+
+## Toys
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ToyFigurineSalvage
+    - ToyFigurineAtmosTech
+    - ToyFigurineParamedic
+    - ToyFigurineMusician
+    - ToyFigurineBoxer
+    - ToyFigurineLibrarian
   abstract: true

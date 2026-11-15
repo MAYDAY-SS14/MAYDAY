@@ -1,0 +1,7 @@
+- type: !PartialOnly entity
+  id: SignDirectionalAtmos
+  description: A direction sign, pointing out which way the atmospherics area is.
+
+- type: !PartialOnly entity
+  id: SignAiUpload
+  description: A sign, indicating the AI upload chamber.
