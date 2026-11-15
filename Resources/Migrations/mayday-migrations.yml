@@ -30,6 +30,8 @@ HolopadServiceLibrary: null
 HolopadServiceZookeeper: null
 HolopadServiceBoxer: null
 HolopadServiceMusician: null
+SignLibrary: null
+SignDirectionalLibrary: null
 SignSalvage: null
 SignAi: null
 VendingMachineAtmosDrobe: null
