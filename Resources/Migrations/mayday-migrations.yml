@@ -40,8 +40,8 @@ ComputerSalvageExpedition: null
 ComputerSalvageJobBoard: null
 VendingMachineSalvage: null
 SalvageMagnet: null
-WeaponEnergyTurretAi: null
-WeaponEnergyTurretAiControlPanel: null
+WeaponEnergyTurretAI: null
+WeaponEnergyTurretAIControlPanel: null
 WeaponEnergyTurretAIMachineCircuitboard: null
 WeaponEnergyTurretAIControlPanelElectronics: null
 LockerAtmosphericsFilled: null

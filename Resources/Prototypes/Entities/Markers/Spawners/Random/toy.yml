@@ -142,17 +142,17 @@
     # Cargo
     - id: ToyFigurineQuartermaster
     - id: ToyFigurineCargoTech
-    - id: ToyFigurineSalvage
+    #- id: ToyFigurineSalvage # MAYDAY: job removals
     # Command
     - id: ToyFigurineCaptain
     # Engineering
     - id: ToyFigurineChiefEngineer
     - id: ToyFigurineEngineer
-    - id: ToyFigurineAtmosTech
+    #- id: ToyFigurineAtmosTech # MAYDAY: job removals
     # Medical
     - id: ToyFigurineChiefMedicalOfficer
     - id: ToyFigurineChemist
-    - id: ToyFigurineParamedic
+    #- id: ToyFigurineParamedic # MAYDAY: job removals
     - id: ToyFigurineMedicalDoctor
     # Science
     - id: ToyFigurineResearchDirector
@@ -168,9 +168,9 @@
     - id: ToyFigurineGreytider
     - id: ToyFigurineClown # :o)
     - id: ToyFigurineMime #
-    - id: ToyFigurineMusician
-    - id: ToyFigurineBoxer
-    - id: ToyFigurineLibrarian
+    #- id: ToyFigurineMusician # MAYDAY: job removals
+    #- id: ToyFigurineBoxer # MAYDAY: job removals
+    #- id: ToyFigurineLibrarian # MAYDAY: job removals
     - id: ToyFigurineChaplain
     - id: ToyFigurineChef
     - id: ToyFigurineBartender

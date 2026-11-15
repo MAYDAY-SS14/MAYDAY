@@ -91,8 +91,12 @@
     - ComputerSalvageJobBoard
     - VendingMachineSalvage
     - SalvageMagnet
-    - WeaponEnergyTurretAiControlPanel
-    - WeaponEnergyTurretAi
+    - WeaponEnergyTurretAIControlPanel
+    - WeaponEnergyTurretAI
+  abstract: true
+
+- type: !PartialOnly entity
+  id: WeaponEnergyTurretAIControlPanel
   abstract: true
 
 ## Devices
