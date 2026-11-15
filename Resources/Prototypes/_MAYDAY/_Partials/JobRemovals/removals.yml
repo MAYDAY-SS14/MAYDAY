@@ -1,6 +1,14 @@
 # Cargo Products
 - type: !PartialOnly cargoProduct
-  id: CargoOreBox
+  id: !type:CreateVariants
+    values:
+    - CargoOreBox
+    - CrateVendingMachineRestockSalvageEquipment
+  abstract: true
+
+# Lathe Recipe Packs
+- type: !PartialOnly latheRecipePack
+  id: CargoBoardsStatic
   abstract: true
 
 # Jobs
@@ -29,13 +37,26 @@
 - type: !PartialOnly entity
   id: !type:CreateVariants
     values:
+    - AirlockAtmospherics
     - AirlockAtmosphericsLocked
+    - AirlockAtmosphericsGlass
+    - AirlockAtmosphericsGlassLocked
     - AirlockExternalGlassAtmosphericsLocked
     - AirlockMaintAtmoLocked
     - AirlockSalvage
+    - AirlockAtmosphericsEngineeringGlassLocked
     - AirlockSalvageLocked
     - AirlockCargoSalvageLocked
     - AirlockMiningLocked
+    - PlasmaWindoorAtmosphericsLocked
+    - WindoorAtmosphericsLocked
+    - AirlockExternalAtmosphericsLocked
+    - AirlockMaintSalvageLocked
+    - AirlockCargoSalvageGlassLocked
+    - AirlockMiningGlassLocked
+    - AirlockSalvageGlass
+    - AirlockSalvageGlassLocked
+    - WindoorSalvageLocked
   abstract: true
 
 ## Spawners
@@ -62,6 +83,7 @@
     - SignDirectionalLibrary
     - SignSalvage
     - SignAi
+    - SignDirectionalSalvage
   abstract: true
 
 ## Holopads
@@ -81,7 +103,7 @@
     - HolopadServiceMusician
   abstract: true
 
-## Machines
+## Structures
 - type: !PartialOnly entity
   id: !type:CreateVariants
     values:
@@ -90,13 +112,13 @@
     - ComputerSalvageExpedition
     - ComputerSalvageJobBoard
     - VendingMachineSalvage
+    - VendingMachineSalvageCargo
     - SalvageMagnet
+    - SalvageLocator
     - WeaponEnergyTurretAIControlPanel
     - WeaponEnergyTurretAI
-  abstract: true
-
-- type: !PartialOnly entity
-  id: WeaponEnergyTurretAIControlPanel
+    - LockableButtonAtmospherics
+    - LockableButtonSalvage
   abstract: true
 
 ## Devices
@@ -105,12 +127,20 @@
     values:
     - WeaponEnergyTurretAIMachineCircuitboard
     - WeaponEnergyTurretAIControlPanelElectronics
+    - DoorElectronicsAtmospherics
+    - DoorElectronicsAtmosphericsEngineering
+    - SalvageExpeditionsComputerCircuitboard
+    - SalvageJobBoardComputerCircuitboard
+    - SalvageMagnetMachineCircuitboard
+    - DoorElectronicsSalvage
+    - DoorElectronicsCargoSalvage
   abstract: true
 
 ## Storage
 - type: !PartialOnly entity
   id: !type:CreateVariants
     values:
+    - LockerAtmospherics
     - LockerAtmosphericsFilled
     - LockerAtmosphericsFilledHardsuit
     - LockerSalvageSpecialistFilled
@@ -121,7 +151,13 @@
     - SuitStorageSalv
     - WardrobeSalvage
     - WardrobeSalvageFilled
+    - ClosetWallAtmospherics
+    - ClosetWallAtmosphericsFilled
+    - WardrobeAtmospherics
+    - WardrobeAtmosphericsFilled
     - OreBox
+    - SuitStorageAtmos
+    - LockerSalvageSpecialist
   abstract: true
 
 ## Toys
@@ -134,4 +170,11 @@
     - ToyFigurineMusician
     - ToyFigurineBoxer
     - ToyFigurineLibrarian
+  abstract: true
+
+## Misc
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - VendingMachineRestockSalvageEquipment
   abstract: true

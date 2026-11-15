@@ -34,4 +34,4 @@
         - id: ComputerMassMediaCircuitboard
         - id: AutolatheMachineCircuitboard
         - id: ProtolatheMachineCircuitboard
-        - id: SalvageMagnetMachineCircuitboard
+        #- id: SalvageMagnetMachineCircuitboard # MAYDAY: job removals
