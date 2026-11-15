@@ -1,0 +1,34 @@
+- type: !PartialOnly department
+  id: Cargo
+  roles:
+  - !Remove SalvageSpecialist
+
+- type: !PartialOnly department
+  id: Engineering
+  roles:
+  - !Remove AtmosphericTechnician
+  - !Remove TechnicalAssistant
+
+- type: !PartialOnly department
+  id: Medical
+  roles:
+  - !Remove MedicalIntern
+  - !Remove Paramedic
+
+- type: !PartialOnly department
+  id: Service
+  roles:
+  - !Remove Librarian
+  - !Remove Musician
+  - !Remove ServiceWorker
+  - !Remove TramDriver
+
+- type: !PartialOnly department
+  id: Science
+  roles:
+  - !Remove ResearchAssistant
+
+- type: !PartialOnly department
+  id: Silicon
+  roles:
+  - !Remove StationAi

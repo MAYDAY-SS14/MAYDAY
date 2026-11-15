@@ -1,0 +1,9 @@
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - ChiefEngineer
+    - HeadOfPersonnel
+    - Quartermaster
+  access:
+  - !Remove Atmospherics
+  - !Remove Salvage

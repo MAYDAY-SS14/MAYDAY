@@ -1,0 +1,180 @@
+# Cargo Products
+- type: !PartialOnly cargoProduct
+  id: !type:CreateVariants
+    values:
+    - CargoOreBox
+    - CrateVendingMachineRestockSalvageEquipment
+  abstract: true
+
+# Lathe Recipe Packs
+- type: !PartialOnly latheRecipePack
+  id: CargoBoardsStatic
+  abstract: true
+
+# Jobs
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - AtmosphericTechnician
+    - Librarian
+    - MedicalIntern
+    - Musician
+    - Paramedic
+    - ResearchAssistant
+    - SalvageSpecialist
+    - ServiceWorker
+    - TechnicalAssistant
+    - TramDriver
+  overrideConsoleVisibility: false
+
+# Departments
+- type: !PartialOnly department
+  id: Specific
+  abstract: true
+
+# Entities
+## Airlocks
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - AirlockAtmospherics
+    - AirlockAtmosphericsLocked
+    - AirlockAtmosphericsGlass
+    - AirlockAtmosphericsGlassLocked
+    - AirlockExternalGlassAtmosphericsLocked
+    - AirlockMaintAtmoLocked
+    - AirlockSalvage
+    - AirlockAtmosphericsEngineeringGlassLocked
+    - AirlockSalvageLocked
+    - AirlockCargoSalvageLocked
+    - AirlockMiningLocked
+    - PlasmaWindoorAtmosphericsLocked
+    - WindoorAtmosphericsLocked
+    - AirlockExternalAtmosphericsLocked
+    - AirlockMaintSalvageLocked
+    - AirlockCargoSalvageGlassLocked
+    - AirlockMiningGlassLocked
+    - AirlockSalvageGlass
+    - AirlockSalvageGlassLocked
+    - WindoorSalvageLocked
+  abstract: true
+
+## Spawners
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - SpawnPointAtmosphericTechnician
+    - SpawnPointLibrarian
+    - SpawnPointMedicalIntern
+    - SpawnPointMusician
+    - SpawnPointParamedic
+    - SpawnPointResearchAssistant
+    - SpawnPointSalvageSpecialist
+    - SpawnPointServiceWorker
+    - SpawnPointTechnicalAssistant
+    - SpawnPointTramDriver
+  abstract: true
+
+## Decorations
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - SignLibrary
+    - SignDirectionalLibrary
+    - SignSalvage
+    - SignAi
+    - SignDirectionalSalvage
+  abstract: true
+
+## Holopads
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - HolopadAiCore
+    - HolopadAiMain
+    - HolopadAiBackupPower
+    - HolopadAiEntrance
+    - HolopadAiChute
+    - HolopadCargoSalvageBay
+    - HolopadMedicalParamed
+    - HolopadServiceLibrary
+    - HolopadServiceZookeeper
+    - HolopadServiceBoxer
+    - HolopadServiceMusician
+  abstract: true
+
+## Structures
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - VendingMachineAtmosDrobe
+    - OreProcessor
+    - ComputerSalvageExpedition
+    - ComputerSalvageJobBoard
+    - VendingMachineSalvage
+    - VendingMachineSalvageCargo
+    - SalvageMagnet
+    - SalvageLocator
+    - WeaponEnergyTurretAIControlPanel
+    - WeaponEnergyTurretAI
+    - LockableButtonAtmospherics
+    - LockableButtonSalvage
+  abstract: true
+
+## Devices
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - WeaponEnergyTurretAIMachineCircuitboard
+    - WeaponEnergyTurretAIControlPanelElectronics
+    - DoorElectronicsAtmospherics
+    - DoorElectronicsAtmosphericsEngineering
+    - SalvageExpeditionsComputerCircuitboard
+    - SalvageJobBoardComputerCircuitboard
+    - SalvageMagnetMachineCircuitboard
+    - DoorElectronicsSalvage
+    - DoorElectronicsCargoSalvage
+  abstract: true
+
+## Storage
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - LockerAtmospherics
+    - LockerAtmosphericsFilled
+    - LockerAtmosphericsFilledHardsuit
+    - LockerSalvageSpecialistFilled
+    - LockerSalvageSpecialistFilledHardsuit
+    - LockerSalvageSpecialistFilledHardsuitCargoAccess
+    - LockerParamedic
+    - LockerParamedicFilled
+    - SuitStorageSalv
+    - WardrobeSalvage
+    - WardrobeSalvageFilled
+    - ClosetWallAtmospherics
+    - ClosetWallAtmosphericsFilled
+    - WardrobeAtmospherics
+    - WardrobeAtmosphericsFilled
+    - OreBox
+    - SuitStorageAtmos
+    - LockerSalvageSpecialist
+  abstract: true
+
+## Toys
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ToyFigurineSalvage
+    - ToyFigurineAtmosTech
+    - ToyFigurineParamedic
+    - ToyFigurineMusician
+    - ToyFigurineBoxer
+    - ToyFigurineLibrarian
+  abstract: true
+
+## Misc
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - VendingMachineRestockSalvageEquipment
+  abstract: true

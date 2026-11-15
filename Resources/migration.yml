@@ -823,7 +823,7 @@ CrateVendingMachineRestockCondimentStationFilled: VendingMachineRestockCondiment
 CrateVendingMachineRestockDinnerwareFilled: VendingMachineRestockDinnerware
 CrateVendingMachineRestockGamesFilled: VendingMachineRestockGames
 CrateVendingMachineRestockPTechFilled: VendingMachineRestockPTech
-CrateVendingMachineRestockSalvageEquipmentFilled: VendingMachineRestockSalvageEquipment
+CrateVendingMachineRestockSalvageEquipmentFilled: null # MAYDAY: changed to null to prevent daisy chaining
 CrateVendingMachineRestockVendomatFilled: VendingMachineRestockVendomat
 CrateVendingMachineRestockTankDispenserFilled: VendingMachineRestockTankDispenser
 # The crates below contained _two_ of the restock items, so these are technically not direct migrations. But eh.
@@ -1073,7 +1073,7 @@ PlasmaWindoorSecureArmoryLocked: PlasmaWindoorArmoryLocked
 WindoorSecureEngineeringLocked: WindoorEngineeringLocked
 WindoorSecureAtmosphericsLocked: WindoorEngineeringLocked
 PlasmaWindoorSecureEngineeringLocked: PlasmaWindoorEngineeringLocked
-PlasmaWindoorSecureAtmosphericsLocked: PlasmaWindoorAtmosphericsLocked
+PlasmaWindoorSecureAtmosphericsLocked: null # MAYDAY: changed to null to prevent daisy chaining
 WindoorSecureServiceLocked: WindoorServiceLocked
 WindoorSecureKitchenLocked: WindoorKitchenLocked
 WindoorSecureBarLocked: WindoorBarLocked
@@ -1083,7 +1083,7 @@ WindoorSecureBrigLocked: WindoorBrigLocked
 WindoorSecureDetectiveLocked: WindoorDetectiveLocked
 WindoorSecureSecurityLawyerLocked: WindoorSecurityLawyerLocked
 WindoorSecureCargoLocked: WindoorCargoLocked
-WindoorSecureSalvageLocked: WindoorSalvageLocked
+WindoorSecureSalvageLocked: null # MAYDAY: changed to null to prevent daisy chaining
 WindoorSecureChapelLocked: WindoorChapelLocked
 WindoorSecureMedicalLocked: WindoorMedicalLocked
 WindoorSecureChemistryLocked: WindoorChemistryLocked

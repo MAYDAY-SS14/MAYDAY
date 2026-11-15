@@ -41,17 +41,17 @@
             # Service (1)
             Chaplain: [ 0, 1 ]
             # Engineering (6)
-            AtmosphericTechnician: [ 1, 2 ]
+            #AtmosphericTechnician: [ 1, 2 ] # MAYDAY: job removals
             StationEngineer: [ 1, 2 ]
-            TechnicalAssistant: [ 0, 2 ]
+            #TechnicalAssistant: [ 0, 2 ] # MAYDAY: job removals
             # Medical (6)
             Chemist: [ 1, 1 ]
             MedicalDoctor: [ 1, 2 ]
-            Paramedic: [ 0, 1 ]
-            MedicalIntern: [ 0, 2 ]
+            #Paramedic: [ 0, 1 ] # MAYDAY: job removals
+            #MedicalIntern: [ 0, 2 ] # MAYDAY: job removals
             # Science (3-4)
             Scientist: [ 1, 2 ]
-            ResearchAssistant: [ 0, 2 ]
+            #ResearchAssistant: [ 0, 2 ] # MAYDAY: job removals
             # Security (6-7)
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 1, 2 ]
