@@ -122,7 +122,7 @@
     - SecurityVisitorSpawner
     - VisitorSecurityCadetSpawner
     - VisitorSecurityOfficerSpawner
-    - VisitorWardenSpawner
+    - VisitorWarden
     - VisitorHOSSpawner
   abstract: true
 
@@ -232,4 +232,5 @@
     - SuitStorageWarden
     - SuitStorageSec
     - SuitStorageCMO
+    - BoxEncryptionKeySecurity
   abstract: true
