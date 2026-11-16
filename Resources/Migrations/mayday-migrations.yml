@@ -99,6 +99,7 @@ SecurityCadetIDCard: null
 SecurityCadetPDA: null
 SecurityIDCard: null
 SecurityPDA: null
+SignDirectionalBrig: null
 SignDirectionalSec: null
 SignGenpop: null
 SignSecurity: null
