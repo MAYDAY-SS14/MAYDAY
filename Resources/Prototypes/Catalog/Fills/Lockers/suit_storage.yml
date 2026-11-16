@@ -167,7 +167,6 @@
 #Security hardsuit
 - type: entity
   parent: SuitStorageBase
-  abstract: true # MAYDAY: security department removal
   id: SuitStorageSec
   suffix: Security
   components:
@@ -202,7 +201,6 @@
 #CMO's hardsuit
 - type: entity
   parent: SuitStorageBase
-  abstract: true # MAYDAY
   id: SuitStorageCMO
   suffix: Chief Medical Officer
   components:
@@ -216,7 +214,6 @@
 #RD's hardsuit
 - type: entity
   parent: SuitStorageBase
-  abstract: true # MAYDAY
   id: SuitStorageRD
   suffix: Research Director
   components:
@@ -230,7 +227,6 @@
 #HOS's hardsuit
 - type: entity
   parent: SuitStorageBase
-  abstract: true # MAYDAY: security department removal
   id: SuitStorageHOS
   suffix: Head of Security
   components:
@@ -244,7 +240,6 @@
 #Warden's hardsuit
 - type: entity
   parent: SuitStorageBase
-  abstract: true # MAYDAY: security department removal
   id: SuitStorageWarden
   suffix: Warden
   components:

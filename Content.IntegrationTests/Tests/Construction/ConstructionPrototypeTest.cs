@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.IntegrationTests.Fixtures;
 using Content.IntegrationTests.Fixtures.Attributes;
 using Content.IntegrationTests.Utility;
@@ -30,6 +31,8 @@ namespace Content.IntegrationTests.Tests.Construction
 
             using (Assert.EnterMultipleScope())
             {
+                // var prototypes = SProtoMan.EnumeratePrototypes<EntityPrototype>()
+                //     .Where(e => e.Components.ContainsKey("Construction"));
                 foreach (var protoKey in constructablePrototypes)
                 {
                     var proto = SProtoMan.Index(protoKey);

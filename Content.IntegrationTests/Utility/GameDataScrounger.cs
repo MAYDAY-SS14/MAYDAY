@@ -197,6 +197,71 @@ public static partial class GameDataScrounger
     private static readonly YamlScalarNode IdNode = new("id");
     private static readonly YamlScalarNode TypeNode = new("type");
 
+    private const string CreateVariantsTag = "!type:CreateVariants";
+    private const string VariantValuesFieldAttribute = "values";
+
+    // begin MAYDAY: You're fucked.
+    private static (string type, string id)? TrackPrototype(YamlNode id, YamlMappingNode entryMapping, bool ignored = false)
+    {
+        var type = entryMapping[TypeNode];
+        var @abstract = ignored;
+        if (entryMapping.TryGetNode("abstract", out YamlScalarNode? abstractNode))
+        {
+            // TODO: This technically will exclude prototypes that use the abstract field for their own stuff,
+            //       and not for parenting. However no such prototype exists in the game as of writing and solving
+            //       this is mildly nontrivial.
+
+            // We use exact equality to match what serialization does.
+            if (abstractNode.Value == "true")
+                @abstract = true;
+        }
+
+        // if (!@abstract)
+        //     return (((YamlScalarNode)type).Value!, ((YamlScalarNode)id).Value!);
+
+        // If we're an entity prototype..
+        if (type is not YamlScalarNode { Value: "entity" })
+            return @abstract ? null : (((YamlScalarNode)type).Value!, ((YamlScalarNode)id).Value!);
+
+        // then do some metadata indexing that's feasible w/o serializationmanager.
+
+        entryMapping.TryGetNode("components", out YamlSequenceNode? components);
+
+        var parents = new List<string>();
+
+        if (entryMapping.TryGetNode("parent", out var parentNode))
+        {
+            switch (parentNode)
+            {
+                case YamlScalarNode scalar:
+                {
+                    parents.Add(scalar.Value!);
+                    break;
+                }
+                case YamlSequenceNode seq:
+                {
+                    parents.AddRange(seq.Children.Select(x => x.AsString()));
+                    break;
+                }
+            }
+        }
+
+
+        // Assemble metadata for this entity prototype w/o needing serializationmanager.
+        var entity = new EntityMetadata()
+        {
+            Abstract = @abstract,
+            Components = components?.Children.Select(x => x["type"].ToString()).ToHashSet() ?? new(),
+            Parents = parents,
+            Id = id.AsString(),
+        };
+
+        _entitiesMetaIndex![id.AsString()] = entity;
+
+        return @abstract ? null : (((YamlScalarNode)type).Value!, ((YamlScalarNode)id).Value!);
+    }
+    // end MAYDAY
+
     /// <summary>
     ///     Indexes all prototypes in a folder, adding them to <see cref="_entitiesMetaIndex"/> as necessary and
     ///     yielding all (type, id) pairs.
@@ -222,64 +287,31 @@ public static partial class GameDataScrounger
 
                 var id = entryMapping[IdNode];
 
-                // TODO: Add handling for prototype variants
-                if (id is YamlMappingNode)
-                    continue;
-
-                var type = entryMapping[TypeNode];
-                var @abstract = ignored;
-                if (entryMapping.TryGetNode("abstract", out YamlScalarNode? abstractNode))
+                // begin MAYDAY: You're fucked.
+                // Primitive handling for prototype variants
+                if (id is YamlMappingNode mappingNode && mappingNode.Tag.Equals(CreateVariantsTag))
                 {
-                    // TODO: This technically will exclude prototypes that use the abstract field for their own stuff,
-                    //       and not for parenting. However no such prototype exists in the game as of writing and solving
-                    //       this is mildly nontrivial.
+                    var sequenceNode = mappingNode.Children.Values.OfType<YamlSequenceNode>().Single();
+                    var variantPrototypeIds = sequenceNode.Children
+                        .OfType<YamlScalarNode>()
+                        .Select(e => e.Value)
+                        .OfType<string>()
+                        .ToList();
 
-                    // We use exact equality to match what serialization does.
-                    if (abstractNode.Value == "true")
-                        @abstract = true;
-                }
-
-                if (!@abstract)
-                    yield return (((YamlScalarNode)type).Value!, ((YamlScalarNode)id).Value!);
-
-                // If we're an entity prototype..
-                if (type is not YamlScalarNode { Value: "entity" })
-                    continue;
-
-                // then do some metadata indexing that's feasible w/o serializationmanager.
-
-                entryMapping.TryGetNode("components", out YamlSequenceNode? components);
-
-                var parents = new List<string>();
-
-                if (entryMapping.TryGetNode("parent", out var parentNode))
-                {
-                    switch (parentNode)
+                    foreach (var variantPrototype in variantPrototypeIds
+                                 .Select(protoId => TrackPrototype(protoId, entryMapping, ignored))
+                                 .OfType<(string type, string id)>())
                     {
-                        case YamlScalarNode scalar:
-                        {
-                            parents.Add(scalar.Value!);
-                            break;
-                        }
-                        case YamlSequenceNode seq:
-                        {
-                            parents.AddRange(seq.Children.Select(x => x.AsString()));
-                            break;
-                        }
+                        yield return variantPrototype;
                     }
                 }
-
-
-                // Assemble metadata for this entity prototype w/o needing serializationmanager.
-                var entity = new EntityMetadata()
+                else if (id is not YamlMappingNode)
                 {
-                    Abstract = @abstract,
-                    Components = components?.Children.Select(x => x["type"].ToString()).ToHashSet() ?? new(),
-                    Parents = parents,
-                    Id = id.AsString(),
-                };
-
-                _entitiesMetaIndex![id.AsString()] = entity;
+                    var proto = TrackPrototype(id, entryMapping, ignored);
+                    if (proto is not null)
+                        yield return proto.Value;
+                }
+                // end MAYDAY
             }
         }
     }
