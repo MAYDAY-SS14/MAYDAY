@@ -1,0 +1,46 @@
+- type: !PartialOnly startingGear
+  id: !type:CreateVariants
+    values:
+    - VisitorLawyerAltA
+    - VisitorLawyerAltB
+    - VisitorLawyerAltC
+    - VisitorLawyerAltD
+    - VisitorLawyerAltE
+  equipment:
+    ears: ClothingHeadsetCommand
+
+- type: !PartialOnly startingGear
+  id: VisitorDetective
+  equipment:
+    ears: ClothingHeadsetCommand
+    outerClothing: ClothingOuterTrenchcoatDetective
+
+- type: !PartialOnly startingGear
+  id: VisitorDetectiveAlt
+  equipment:
+    ears: ClothingHeadsetCommand
+    outerClothing: ClothingOuterTrenchcoatDetectiveGrey
+
+- type: !PartialOnly startingGear
+  id: !type:CreateVariants
+    values:
+    - VisitorMusicianFancyAltA
+    - VisitorMusicianFancyAltB
+    - VisitorMusicianFancyAltC
+    - VisitorMusicianFancyAltD
+    - VisitorMusicianFancyAltE
+    - VisitorMusicianFancyAltF
+    - VisitorMusicianFancyAltG
+    - VisitorMusicianFancyAltH
+    - VisitorMusicianFancyAltI
+    - VisitorMusicianRelaxedAltA
+    - VisitorMusicianRelaxedAltB
+    - VisitorMusicianRelaxedAltC
+    - VisitorMusicianRelaxedAltD
+    - VisitorMusicianRelaxedAltE
+    - VisitorMusicianRelaxedAltF
+    - VisitorMusicianMariachi
+    - VisitorMime
+    - VisitorMimeAlt
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses

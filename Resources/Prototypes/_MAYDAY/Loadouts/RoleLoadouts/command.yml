@@ -1,0 +1,13 @@
+- type: roleLoadout
+  id: JobEscort
+  groups:
+  - EscortHead
+  - CommandEyes
+  - EscortJumpsuit
+  - EscortBackpack
+  - EscortBelt
+  - EscortOuterClothing
+  - AssistiveItems
+  - SurvivalEscort
+  - Trinkets
+  - GroupSpeciesBreathToolEscort

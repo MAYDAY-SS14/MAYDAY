@@ -1,0 +1,23 @@
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - ResearchDirector
+    - ChiefMedicalOfficer
+    - ChiefEngineer
+    - Quartermaster
+    - HeadOfPersonnel
+    - Detective
+  access:
+  - Armory
+  - Command
+  - !Remove Brig
+  - !Remove Security
+  - !Remove GenpopEnter
+  - !Remove GenpopLeave
+
+- type: !PartialOnly startingGear
+  id: DetectiveGear
+  equipment:
+    eyes: ClothingEyesGlassesCommand
+    ears: ClothingHeadsetCommand
+    belt: ClothingBeltStorageWaistbag

@@ -156,8 +156,8 @@
     - id: ClothingEyesGlassesNoir
     - id: ClothingHeadHatDetGadget
     - id: ClothingNeckTieDet
-    - id: ClothingOuterVestDetective
-    - id: ClothingOuterCoatDetectiveLoadout
+    #- id: ClothingOuterVestDetective # MAYDAY: security department removal
+    #- id: ClothingOuterCoatDetectiveLoadout # MAYDAY: security department removal
     - id: FlippoEngravedLighter
     - id: FlashlightSeclite
     - id: ForensicScanner

@@ -27,5 +27,5 @@
       - !type:GroupSelector
         children:
         - id: EncryptionKeyCommand
-        - id: EncryptionKeySecurity
+        #- id: EncryptionKeySecurity # MAYDAY: security department removal
     offset: 0.0

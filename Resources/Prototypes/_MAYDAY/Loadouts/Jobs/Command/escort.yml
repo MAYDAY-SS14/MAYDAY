@@ -1,0 +1,64 @@
+# Head
+- type: loadout
+  id: EscortHead
+  equipment:
+    head: ClothingHeadHatEscort
+
+- type: loadout
+  id: EscortBeret
+  equipment:
+    head: ClothingHeadHatBeretEscort
+
+# Jumpsuit
+- type: loadout
+  id: EscortJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEscort
+
+- type: loadout
+  id: EscortJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtEscort
+
+# Belt
+- type: loadout
+  id: EscortBelt
+  equipment:
+    belt: ClothingBeltEscortFilled
+
+- type: loadout
+  id: EscortWebbing
+  equipment:
+    belt: ClothingBeltEscortWebbingFilled
+
+# OuterClothing
+- type: loadout
+  id: EscortJacket
+  equipment:
+    outerClothing: ClothingOuterJacketEscort
+
+- type: loadout
+  id: EscortCoat
+  equipment:
+    outerClothing: ClothingOuterCoatEscort
+
+- type: loadout
+  id: EscortTrenchcoat
+  equipment:
+    outerClothing: ClothingOuterTrenchcoatEscort
+
+# Back
+- type: loadout
+  id: EscortBackpack
+  equipment:
+    back: ClothingBackpackEscort
+
+- type: loadout
+  id: EscortSatchel
+  equipment:
+    back: ClothingBackpackSatchelEscort
+
+- type: loadout
+  id: EscortDuffel
+  equipment:
+    back: ClothingBackpackDuffelEscort

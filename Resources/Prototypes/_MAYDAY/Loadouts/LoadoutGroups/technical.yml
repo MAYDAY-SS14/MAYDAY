@@ -1,0 +1,20 @@
+# "invisible" loadout groups that are used for things like vox breath masks and survival boxes
+
+- type: loadoutGroup
+  id: SurvivalEscort
+  name: loadout-group-survival-escort
+  minLimit: 2
+  hidden: true
+  loadouts:
+  - EmergencyNitrogenSecurity
+  - EmergencyOxygenSecurity
+  - LoadoutSpeciesVoxNitrogen
+
+- type: loadoutGroup
+  id: GroupSpeciesBreathToolEscort
+  name: loadout-group-breath-tool
+  minLimit: 1
+  maxLimit: 1
+  hidden: true
+  loadouts:
+  - LoadoutSpeciesBreathToolSecurity

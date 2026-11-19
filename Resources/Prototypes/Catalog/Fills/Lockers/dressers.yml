@@ -64,6 +64,7 @@
 
 - type: entity
   id: DresserHeadOfSecurityFilled
+  abstract: true # MAYDAY: security department removal
   parent: Dresser
   suffix: Filled, Head Of Security
   components:
@@ -117,6 +118,7 @@
 
 - type: entity
   id: DresserWardenFilled
+  abstract: true # MAYDAY: security department removal
   parent: Dresser
   suffix: Filled, Warden
   components:

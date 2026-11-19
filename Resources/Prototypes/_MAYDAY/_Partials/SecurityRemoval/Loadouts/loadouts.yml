@@ -1,0 +1,20 @@
+# Role Loadouts
+- type: roleLoadout
+  id: JobCaptain
+  groups:
+  - !Remove CaptainOuterClothing
+
+# Loadout Groups
+- type: !PartialOnly loadoutGroup
+  id: CaptainOuterClothing
+  abstract: true
+
+- type: !PartialOnly loadoutGroup
+  id: DetectiveOuterClothing
+  loadouts:
+  - !Remove DetectiveArmorVest
+  - !Remove DetectiveCoat
+  - !Remove DetectiveCoatGrey
+  - !Remove SecurityOfficerWintercoat
+  - DetectiveTrenchcoat
+  - DetectiveTrenchcoatGrey

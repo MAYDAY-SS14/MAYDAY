@@ -45,6 +45,7 @@
 - type: entity
   parent: CrateSecgear
   id: CrateVendingMachineRestockSecTechFilled
+  abstract: true # MAYDAY: security department removal
   name: SecTech restock crate
   description: Contains a restock box for the SecTech vending machine.
   components:

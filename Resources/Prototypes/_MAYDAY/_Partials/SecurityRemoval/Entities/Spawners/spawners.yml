@@ -1,0 +1,16 @@
+- type: !PartialOnly entity
+  id: CommandVisitorSpawner
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - !Remove RandomHumanoidVisitorHOS
+
+- type: !PartialOnly entity
+  id: NTVisitorSpawner
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - !Remove RandomHumanoidVisitorHOS
+    - !Remove RandomHumanoidVisitorSecurityCadet
+    - !Remove RandomHumanoidVisitorSecurityOfficer
+    - !Remove RandomHumanoidVisitorWarden

@@ -1,0 +1,31 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatEscort
+  name: escort's cap
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/warden.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/warden.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretEscort
+  name: escort's beret
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_warden.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_warden.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+    - WhitelistChameleon

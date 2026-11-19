@@ -1,0 +1,11 @@
+- type: guideEntry
+  id: Detective
+  name: guide-entry-detective
+  text: "/ServerInfo/_MAYDAY/Guidebook/Command/Detective.xml"
+  children:
+  - Forensics
+
+- type: guideEntry
+  id: Escort
+  name: guide-entry-escort
+  text: "/ServerInfo/_MAYDAY/Guidebook/Command/Escort.xml"

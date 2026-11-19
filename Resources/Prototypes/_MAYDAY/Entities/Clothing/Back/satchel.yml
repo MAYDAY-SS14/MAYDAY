@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelEscort
+  name: escort satchel
+  description: gleep glorp # TODO(MAYDAY): write this
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/security.rsi

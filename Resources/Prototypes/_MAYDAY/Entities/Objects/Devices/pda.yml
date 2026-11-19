@@ -1,0 +1,20 @@
+- type: entity
+  parent: BaseSecurityPDA
+  id: EscortPDA
+  name: escort PDA
+  description: Sleek, polished, and reinforced everywhere the manufacturer could get away with. This will probably outlive you.
+  components:
+  - type: Sprite
+    sprite: _MAYDAY/Objects/Devices/pda.rsi
+  - type: Pda
+    id: EscortIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-escort
+  - type: PdaBorderColor
+    borderColor: "#1b67a5"
+  - type: Icon
+    sprite: _MAYDAY/Objects/Devices/pda.rsi
+    state: pda-escort

@@ -1,0 +1,13 @@
+- type: !PartialOnly accessGroup
+  id: !type:CreateVariants
+    values:
+    - AllAccess
+    - Command
+    - Service
+  tags:
+  - !Remove HeadOfSecurity
+  - !Remove Security
+  - !Remove Brig
+  - !Remove GenpopEnter
+  - !Remove GenpopLeave
+  - !Remove Lawyer
