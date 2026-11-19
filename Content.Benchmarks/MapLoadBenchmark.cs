@@ -49,21 +49,13 @@ public class MapLoadBenchmark
     }
 
     public static string[] MapsSource { get; } = {
-        "Bagel",
-        "Box",
+        // MAYDAY: removed unused wizden maps
         "CentComm",
         "Dev",
         "Empty",
-        "Marathon",
         "MeteorArena",
-        "Packed",
         "Saltern",
-        "Sushi",
-        "TestTeg",
-        "Tram2",
-        "Snowball",
-        "Hike",
-        "gear"
+        "TestTeg"
     };
 
     [ParamsSource(nameof(MapsSource))]

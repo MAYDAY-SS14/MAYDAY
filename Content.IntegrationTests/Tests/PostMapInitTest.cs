@@ -63,9 +63,7 @@ namespace Content.IntegrationTests.Tests
         /// </remarks>
         private static readonly Dictionary<string, HashSet<EntProtoId>> DoNotMapWhitelistSpecific = new()
         {
-            {"/Maps/bagel.yml", ["RubberStampMime"]},
-            {"/Maps/reach.yml", ["HandheldCrewMonitor"]},
-            {"/Maps/hike.yml", ["HandheldCrewMonitor"]},
+            // MAYDAY: remove unused wizden maps
             {"/Maps/Shuttles/ShuttleEvent/honki.yml", ["GoldenBikeHorn", "RubberStampClown"]},
             {"/Maps/Shuttles/ShuttleEvent/syndie_evacpod.yml", ["RubberStampSyndicate"]},
             {"/Maps/Shuttles/ShuttleEvent/cruiser.yml", ["ShuttleGunPerforator"]},
