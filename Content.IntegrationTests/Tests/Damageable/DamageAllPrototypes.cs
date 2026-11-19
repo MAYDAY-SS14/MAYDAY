@@ -6,8 +6,6 @@ using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Prototypes;
 using Content.Shared.Damage.Systems;
 using Content.Shared.FixedPoint;
-using Robust.Shared.GameObjects;
-using Serilog;
 
 namespace Content.IntegrationTests.Tests.Damageable;
 
@@ -37,16 +35,7 @@ public sealed class DamageAllPrototypesTest : GameTest
         {
             foreach (var injurable in GameDataScrounger.EntitiesWithComponent("Injurable"))
             {
-                EntityUid entity;
-                try
-                {
-                    entity = await SpawnAtPosition(injurable, map.GridCoords);
-                }
-                catch (EntityCreationException)
-                {
-                    Log.Error("Failed to spawn entity prototype {protoId}", injurable);
-                    throw;
-                }
+                var entity = await SpawnAtPosition(injurable, map.GridCoords);
 
                 try
                 {
