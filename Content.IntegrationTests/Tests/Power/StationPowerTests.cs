@@ -23,19 +23,7 @@ public sealed class StationPowerTests : GameTest
 
     private static readonly string[] GameMaps =
     [
-        "Bagel",
-        "Box",
-        "Elkridge",
-        "Exo",
-        "Marathon",
-        "Packed",
-        "Plasma",
-        "Relic",
-        "Snowball",
-        "Sushi",
-        "Tram2",
-        "Hike",
-        "gear"
+        // MAYDAY: removed unused wizden maps
     ];
 
     public override PoolSettings PoolSettings => new ()
